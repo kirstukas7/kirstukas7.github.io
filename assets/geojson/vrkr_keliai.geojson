@@ -6,8 +6,10 @@
     },
     "properties":{
         "title": "KK130 11,60-19,48",
-        "desciption": "desc",
-        "stroke": "#ff0000",
-        "stroke-width": 12
+        "desciption": "desc"
+    },
+    "style":{
+        "color": "#ff0000",
+        "weight": 12
     }
 }
