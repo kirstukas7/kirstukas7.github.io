@@ -8,28 +8,41 @@ map.setView([54.8750, 23.9093], 10);
 
 import { stiliai_keliai, stiliai_skiriamosios, stiliai_sankryzos } from './vrkr_stiliai.js';
 
-loadJSON("keliai");
 setTimeout(function(){
-    loadJSON("skiriamosios"); 
-}, 100);
-setTimeout(function(){
-    loadJSON("sankryzos");
-}, 200);
-
-function loadJSON(type) {
-    var file = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_"+type+".geojson";
-    $.getJSON(file, function (jsonObject) {
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson", function (jsonObject) {
         L.geoJson(jsonObject, {
-            style: function (feature) {
-                switch (type) {
-                    case "keliai": return stiliai_keliai(feature.properties.stage, feature.properties.lanes);
-                    case "skiriamosios": return stiliai_skiriamosios(feature.properties.lanes, feature.properties.type);
-                    case "sankryzos": return stiliai_sankryzos(feature.properties.type, feature.properties.stage, feature.properties.lanes);
-                }
+            style: function(feature) {
+                return stiliai_keliai(feature.properties.stage, feature.properties.lanes);
             },
-            onEachFeature: function (feature, layer) {
+            onEachFeature: function(feature, layer) {
                 layer.bindPopup("<h3>"+feature.properties.title+"</h3>"+feature.properties.description);
             }
         }).addTo(map);
     });
-};
+}, 100);
+
+setTimeout(function(){
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_skiriamosios.geojson", function (jsonObject) {
+        L.geoJson(jsonObject, {
+            style: function(feature) {
+                return stiliai_skiriamosios(feature.properties.lanes, feature.properties.type);
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindPopup("<h3>"+feature.properties.title+"</h3>"+feature.properties.description);
+            }
+        }).addTo(map);
+    });
+}, 200);
+
+setTimeout(function(){
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_sankryzos.geojson", function (jsonObject) {
+        L.geoJson(jsonObject, {
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng, stiliai_sankryzos(feature.properties.stage, feature.properties.type, feature.properties.lanes))
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindPopup("<h3>"+feature.properties.title+"</h3>"+feature.properties.description);
+            }
+        }).addTo(map);
+    });
+}, 300);
