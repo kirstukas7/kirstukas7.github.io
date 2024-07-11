@@ -11,10 +11,10 @@ import { stiliai_keliai, stiliai_skiriamosios, stiliai_sankryzos } from './vrkr_
 loadJSON("keliai");
 setTimeout(function(){
     loadJSON("skiriamosios"); 
-}, 10);
+}, 100);
 setTimeout(function(){
     loadJSON("sankryzos");
-}, 20);
+}, 200);
 
 function loadJSON(type) {
     var file = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_"+type+".geojson";
