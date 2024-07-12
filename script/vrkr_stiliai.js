@@ -37,7 +37,7 @@ function stiliai_sankryzos(stage, type, lanes) {
         case "33": case "33G": case "33H": width = 9; break;
     };
     var icon = L.icon({
-        iconUrl: "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/"+type+"/"+stage+"_"+type+"_"+lanes+".svg",
+        iconUrl: "https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main/icons/"+type+"/"+stage+"_"+type+"_"+lanes+".svg",
         iconSize: [width*mult, width*mult]
     });
     return {icon: icon, keyboard: false};

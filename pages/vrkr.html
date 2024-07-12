@@ -3,6 +3,49 @@ layout: zemelapis
 title: Valstybinės reikšmės kelių rekonstrukcijos
 permalink: /valstybines-reiksmes-keliu-rekonstrukcijos/
 ---
+<!-- optionally define the sidebar content via HTML markup -->
+<div id="sidebar" class="leaflet-sidebar collapsed">
+
+    <!-- nav tabs -->
+    <div class="leaflet-sidebar-tabs">
+        <!-- top aligned tabs -->
+        <ul role="tablist">
+            <li><a href="#legend" role="tab"><i class="fa fa-road"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- panel content -->
+    <div class="leaflet-sidebar-content">
+        <div class="leaflet-sidebar-pane" id="legend">
+            <h1 class="leaflet-sidebar-header">
+                Legenda
+                <span class="leaflet-sidebar-close"><i class="fa fa-xmark"></i></span>
+            </h1>
+
+            <p><img src="https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main/icons/legenda/legenda.svg" width="100%" height="auto"></p>
+            <p>Paaiškinimai:
+                <ul>
+                    <li>Dalinė sankryža – pavienės nuovažos/įvažos, tik vienoje pusėje arba abiejose pusėse be galimybės pervažiuoti į kitą pusę (arba pervažiavimas yra nutolęs).</li>
+                    <li>Vyksta projektavimas – rengiamas techninis (darbo) projektas.</li>
+                    <li>Priešprojektinė stadija – galimybių studija, inžinerinės infrastruktūros vystymo planas, specialusis planas ir pnš.</li>
+                </ul>
+            </p>
+            <p>Explanations:
+                <ul>
+                    <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
+                    <li>Design in progress – a technical (working) project (design) is being prepared.</li>
+                    <li>Pre-design phase – feasibility study, engineering infrastructure development plan, special plan, etc.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src=" https://cdn.jsdelivr.net/npm/leaflet-sidebar-v2@3.2.3/js/leaflet-sidebar.js "></script>
 
 <scritp src="../script/vrkr_stiliai.js"></scritp>
 <script src="../script/vrkr.js" type="module"></script>
