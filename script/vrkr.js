@@ -18,7 +18,7 @@ var sidebar = L.control.sidebar({
 import { stiliai_keliai, stiliai_skiriamosios, stiliai_ribos, stiliai_sankryzos } from './vrkr_stiliai.js';
 
 setTimeout(() => {
-    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main/geojson/vrkr_keliai.geojson", jsonObject => L.geoJson(jsonObject, {
+    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest/geojson/vrkr_keliai.geojson", jsonObject => L.geoJson(jsonObject, {
             style: feature => stiliai_keliai(feature.properties.stage, feature.properties.lanes),
             onEachFeature: (feature, layer) => onEachFeature(feature, layer)
         }).addTo(map)
@@ -26,7 +26,7 @@ setTimeout(() => {
 }, 0);
 
 setTimeout(() => {
-    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main//geojson/vrkr_skiriamosios.geojson", jsonObject => L.geoJson(jsonObject, {
+    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest//geojson/vrkr_skiriamosios.geojson", jsonObject => L.geoJson(jsonObject, {
             style: feature => stiliai_skiriamosios(feature.properties.lanes),
             onEachFeature: (feature, layer) => onEachFeature(feature, layer)
         }).addTo(map)
@@ -34,14 +34,14 @@ setTimeout(() => {
 }, 100);
 
 setTimeout(() => {
-    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main//geojson/vrkr_ribos.geojson", jsonObject => L.geoJson(jsonObject, {
+    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest//geojson/vrkr_ribos.geojson", jsonObject => L.geoJson(jsonObject, {
         pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_ribos(feature.properties.lanes, feature.properties.angle))
         }).addTo(map)
     );
 }, 200);
 
 setTimeout(() => {
-    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main//geojson/vrkr_sankryzos.geojson", jsonObject => L.geoJson(jsonObject, {
+    $.getJSON("https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest//geojson/vrkr_sankryzos.geojson", jsonObject => L.geoJson(jsonObject, {
             pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_sankryzos(feature.properties.stage, feature.properties.type, feature.properties.lanes)),
             onEachFeature: (feature, layer) => onEachFeature(feature, layer)
         }).addTo(map)

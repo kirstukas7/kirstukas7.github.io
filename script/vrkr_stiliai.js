@@ -37,7 +37,7 @@ function stiliai_ribos(lanes, angle) {
         case "33": width = 12; break;
     };
     var icon = L.icon({
-        iconUrl: "https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main/icons/ribos/riba_"+lanes+".svg",
+        iconUrl: "https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest/icons/ribos/riba_"+lanes+".svg",
         iconSize: [width*mult, width*mult]
     });
     return {icon: icon, keyboard: false, rotationAngle: angle, rotationOrigin: "center center"};
@@ -57,7 +57,7 @@ function stiliai_sankryzos(stage, type, lanes) {
         case "sankr": zIndexOffset = 60; break;
     }
     var icon = L.icon({
-        iconUrl: "https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@main/icons/"+type+"/"+stage+"_"+type+"_"+lanes+".svg",
+        iconUrl: "https://cdn.jsdelivr.net/gh/kirstukas7/Zemelapis-Assets@latest/icons/"+type+"/"+stage+"_"+type+"_"+lanes+".svg",
         iconSize: [width*mult, width*mult]
     });
     return {icon: icon, keyboard: false, zIndexOffset: zIndexOffset};
