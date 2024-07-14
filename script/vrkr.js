@@ -18,36 +18,38 @@ var sidebar = L.control.sidebar({
 import { stiliai_keliai, stiliai_skiriamosios, stiliai_ribos, stiliai_sankryzos } from './vrkr_stiliai.js';
 
 setTimeout(() => {
-    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson", jsonObject => L.geoJson(jsonObject, {
-            style: feature => stiliai_keliai(feature.properties.stage, feature.properties.lanes),
-            onEachFeature: (feature, layer) => onEachFeature(feature, layer)
-        }).addTo(map)
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson", jsonObject => {var layerKeliai = L.geoJson(jsonObject, {
+            style: feature => stiliai_keliai(feature.properties),
+            onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+        }).addTo(map)}
     );
 }, 0);
 
+map.createPane('skir');
+map.getPane('skir').style.zIndex = 450;
 setTimeout(() => {
-    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_skiriamosios.geojson", jsonObject => L.geoJson(jsonObject, {
-            style: feature => stiliai_skiriamosios(feature.properties.lanes),
-            onEachFeature: (feature, layer) => onEachFeature(feature, layer)
-        }).addTo(map)
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_skiriamosios.geojson", jsonObject => {var layerSkiriamosios = L.geoJson(jsonObject, {
+            style: feature => stiliai_skiriamosios(feature.properties),
+            pane: "skir"
+        }).addTo(map)}
     );
 }, 100);
 
 setTimeout(() => {
-    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_ribos.geojson", jsonObject => L.geoJson(jsonObject, {
-        pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_ribos(feature.properties.lanes, feature.properties.angle))
-        }).addTo(map)
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_ribos.geojson", jsonObject => {var layerRibos = L.geoJson(jsonObject, {
+            pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_ribos(feature.properties))
+        }).addTo(map)}
     );
 }, 200);
 
 setTimeout(() => {
-    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_sankryzos.geojson", jsonObject => L.geoJson(jsonObject, {
-            pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_sankryzos(feature.properties.stage, feature.properties.type, feature.properties.lanes)),
-            onEachFeature: (feature, layer) => onEachFeature(feature, layer)
-        }).addTo(map)
+    $.getJSON("https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_sankryzos.geojson", jsonObject => {var layerSankryzos = L.geoJson(jsonObject, {
+            pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_sankryzos(feature.properties)),
+            onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+        }).addTo(map)}
     );
 }, 300);
 
-function onEachFeature (feature, layer) {
-    layer.bindPopup("<h3>"+feature.properties.title+"</h3>"+feature.properties.description);
+function onEachFeature (data, layer) {
+    layer.bindPopup("<h3>"+data.title+"</h3>"+data.description_lt+"</br>"+data.description_en);
 };
