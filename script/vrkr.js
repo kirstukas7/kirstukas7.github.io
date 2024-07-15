@@ -1,9 +1,9 @@
 // leaflet map setup
 var map = L.map('map');
-map.setView([54.8750, 23.9093], 10);
+map.setView([54.8750, 23.9093], 9);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    minZoom: 10,
+    minZoom: 9,
     maxZoom: 15,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
 }).addTo(map);
@@ -51,5 +51,8 @@ setTimeout(() => {
 }, 300);
 
 function onEachFeature (data, layer) {
-    layer.bindPopup("<h3>"+data.title+"</h3>"+data.description_lt+"</br>"+data.description_en);
+    if (data.description_lt === undefined)
+        layer.bindPopup("<h3>"+data.title+"</h3>");
+    else
+        layer.bindPopup("<h3>"+data.title+"</h3>"+data.description_lt+"</br>"+data.description_en);
 };
