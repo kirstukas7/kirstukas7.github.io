@@ -1,7 +1,7 @@
 var mult = 2.75;
 
 function stiliai_keliai(data) {
-    var color = '#bcbec0', width = 6*mult;
+    var color = '#bcbec0', width = 6;
     switch (data.stage) {
         case "priesprojektinis": color = '#ff00c5'; break;
         case "projektuojamas": color = '#00c5ff'; break;
@@ -10,31 +10,32 @@ function stiliai_keliai(data) {
         case "veikiantis": color = '#38a800'; break;
     };
     switch (data.lanes) {
-        case "11": width = 2*mult; break;
-        case "21": width = 4*mult; break;
-        case "22": width = 6*mult; break;
-        case "33": width = 8*mult; break;
+        case "11": width = 2; break;
+        case "03": width = 3; break;
+        case "21": case "04": width = 4; break;
+        case "22": width = 6; break;
+        case "33": width = 8; break;
     };
-    return {"color": color, "weight": width, lineCap: "butt"};
+    return {"color": color, "weight": width*mult, lineCap: "butt"};
 };
 
 function stiliai_skiriamosios(data) {
-    var color = '#ffffff', width = 2*mult;
+    var color = '#ffffff', width = 2;
     switch (data.lanes) {
-        case "21": width = 1*mult; break;
+        case "21": width = 1; break;
         case "22G": case "33G": color = '#ffff96'; break;
         case "22H": case "33H": color = '#ffff00'; break;
     };
-    return {"color": color, "weight": width, lineCap: "butt", interactive: false};
+    return {"color": color, "weight": width*mult, lineCap: "butt", interactive: false};
 };
 
 function stiliai_ribos(data) {
-    var width = 10; 
+    var width = 6; 
     switch(data.lanes) {
-        case "11": width = 6; break;
-        case "21": width = 8; break;
-        case "22": width = 10; break;
-        case "33": width = 12; break;
+        case "11": width = 3; break;
+        case "21": width = 4; break;
+        case "22": width = 6; break;
+        case "33": width = 8; break;
     };
     var icon = L.icon({
         iconUrl: "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/ribos/riba_"+data.lanes+".svg",

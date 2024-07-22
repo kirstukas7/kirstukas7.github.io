@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    {{ content }}
+    <script>
+        var language = navigator.language || navigator.userLanguage; 
+        language = language.substring( 0, 2 );
+    
+        if (language === 'lt')
+            window.location.href = "/lt/"+baseSite;
+        else
+            window.location.href = "/en/"+baseSite;
+    </script>
+</body>
+</html>

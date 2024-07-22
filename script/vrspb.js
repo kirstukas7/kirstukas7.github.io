@@ -1,0 +1,1 @@
+window.location.href = "https://www.arcgis.com/apps/instant/sidebar/index.html?appid=eab14b61d7ab4ea2817a8d96adcfd1d1";
