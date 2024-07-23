@@ -51,10 +51,16 @@ permalink: /en/valstybines-reiksmes-keliu-rekonstrukcijos/
 
 <script>
     function onEachFeature (data, layer) {
-        if (data.description_lt === undefined)
-            layer.bindPopup("<h3>"+data.title+"</h3>");
+        var desc_text = "";
+        if (data.title_en !== undefined)
+            desc_text += "<h3>"+data.title_en+"</h3>";
         else
-            layer.bindPopup("<h3>"+data.title+"</h3>"+data.description_en);
+            desc_text += "<h3>"+data.title+"</h3>";
+
+        if (data.description_en !== undefined)
+            desc_text += data.description_en;
+
+        layer.bindPopup(desc_text);
         };
 </script>
 <script src="../../script/vrkr.js" type="module"></script>
