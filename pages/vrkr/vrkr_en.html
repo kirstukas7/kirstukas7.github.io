@@ -1,54 +1,9 @@
 ---
 layout: vrkr
-title: Valstybinės reikšmės kelių rekonstrukcijos
-permalink: /en/valstybines-reiksmes-keliu-rekonstrukcijos/
+title: Reconstruction of roads of national importance in Lithuania
+permalink: /en/valstybines-reiksmes-keliu-rekonstrukcijos
+lang: en
 ---
-<div id="sidebar" class="leaflet-sidebar collapsed">
-
-    <!-- nav tabs -->
-    <div class="leaflet-sidebar-tabs">
-        <!-- top aligned tabs -->
-        <ul role="tablist">
-            <li><a href="#legenda" role="tab"><i class="fa-solid fa-road"></i></a></li>
-            <li><a href="#naujienos" role="tab"><i class="fa-solid fa-newspaper"></i></a></li>
-            <li><a href="javascript:changeLang('valstybines-reiksmes-keliu-rekonstrukcijos')"><i class="fi fi-gb"></i></a></li>
-        </ul>
-
-        <!-- bottom aligned tabs -->
-        <ul role="tablist">
-            <li><a href="https://github.com/kirstukas7/Zemelapis-Assets/issues"><i class="fa-solid fa-triangle-exclamation"></i></a></li>
-            <li><a href="/"><i class="fa fa-house"></i></a></li>
-        </ul>
-    </div>
-
-    <!-- panel content -->
-    <div class="leaflet-sidebar-content">
-        <div class="leaflet-sidebar-pane" id="legenda">
-            <h1 class="leaflet-sidebar-header">
-                Legend
-                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
-            </h1>
-
-            <p><img src="https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/legenda/legenda.svg" width="100%" height="auto"></p>
-            <p>Explanations:
-                <ul>
-                    <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
-                    <li>Design in progress – a technical (working) project (design) is being prepared.</li>
-                    <li>Pre-design phase – feasibility study, engineering infrastructure development plan, special plan, etc.</li>
-                </ul>
-            </p>
-        </div>
-        <div class="leaflet-sidebar-pane" id="naujienos">
-            <h1 class="leaflet-sidebar-header">
-                News
-                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
-            </h1>
-
-            <p>The map is still being filled.</p>
-        </div>
-    </div>
-</div>
-
 <script>
     function onEachFeature (data, layer) {
         var desc_text = "";
@@ -63,5 +18,3 @@ permalink: /en/valstybines-reiksmes-keliu-rekonstrukcijos/
         layer.bindPopup(desc_text);
         };
 </script>
-<script src="../../script/vrkr_stiliai.js"></script>
-<script src="../../script/vrkr.js"></script>

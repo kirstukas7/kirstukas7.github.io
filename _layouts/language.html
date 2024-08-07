@@ -4,7 +4,6 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
 </head>
 <body>
-    {{ content }}
     <script>
         var language = Cookies.get('lang');
 
@@ -19,11 +18,9 @@
         }
 
         if (language == 'lt')
-            window.location.href = "/lt/"+baseSite;
+            window.location.href = "/lt"+"{{ page.permalink }}";
         else if (language == 'en')
-            window.location.href = "/en/"+baseSite;
-        /*else
-            location.reload();*/
+            window.location.href = "/en"+"{{ page.permalink }}";
     </script>
 </body>
 </html>

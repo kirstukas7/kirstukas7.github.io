@@ -1,0 +1,13 @@
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
+<script>
+    function changeLang() {
+        language = Cookies.get('lang');
+        
+        if (language == 'lt')
+            language = 'en';
+        else if (language == 'en')
+            language = 'lt';
+        console.log(language);
+        Cookies.set('lang', language);
+    }
+</script>

@@ -1,7 +1,51 @@
 ---
 layout: zemelapis
 ---
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-rotatedmarker@0.2.0/leaflet.rotatedMarker.min.js"></script>
+{% if page.lang == "lt" %}
+    {% assign sidebar = site.data.sidebar.lt %}
+{% elsif page.lang == "en" %}
+    {% assign sidebar = site.data.sidebar.en %}
+{% endif %}
+<div id="sidebar" class="leaflet-sidebar collapsed">
+
+    <!-- nav tabs -->
+    <div class="leaflet-sidebar-tabs">
+        <!-- top aligned tabs -->
+        <ul role="tablist">
+            <li><a href="#legenda" role="tab"><i class="fa-solid fa-road"></i></a></li>
+            <!--<li><a href="#naujienos" role="tab"><i class="fa-solid fa-newspaper"></i></a></li>-->
+            <li><a onclick="return changeLang()" href="/valstybines-reiksmes-keliu-rekonstrukcijos"><i class="fi fi-{{ sidebar.flag }}"></i></a></li>
+        </ul>
+
+        <!-- bottom aligned tabs -->
+        <ul role="tablist">
+            <li><a href="https://github.com/kirstukas7/Zemelapis-Assets/issues"><i class="fa-solid fa-triangle-exclamation"></i></a></li>
+            <li><a href="/"><i class="fa fa-house"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- panel content -->
+    <div class="leaflet-sidebar-content">
+        <div class="leaflet-sidebar-pane" id="legenda">
+            <h1 class="leaflet-sidebar-header">
+                {{ sidebar.legend.title }}
+                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
+            </h1>
+
+            <p><img src="{{ sidebar.legend.img }}" width="100%" height="auto"></p>
+            <p>{{ sidebar.legend.desc }}</p>
+        </div>
+        <div class="leaflet-sidebar-pane" id="naujienos">
+            <h1 class="leaflet-sidebar-header">
+                {{ sidebar.news.title }}
+                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
+            </h1>
+
+            {{ sidebar.news.desc }}
+        </div>
+    </div>
+</div>
 {{ content }}
-<script src="../../script/kalba.js"></script>
+<script src="/script/vrkr_stiliai.js"></script>
+<script src="/script/vrkr.js"></script>
+{% include kalba.html %}

@@ -1,0 +1,17 @@
+flag: lt
+
+legend:
+  title: Legenda
+  img: https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/legenda/legenda.svg
+  desc: |
+    Paaiškinimai:
+    <ul>
+      <li>Dalinė sankryža – pavienės nuovažos/įvažos, tik vienoje pusėje arba abiejose pusėse be galimybės pervažiuoti į kitą pusę (arba pervažiavimas yra nutolęs).</li>
+      <li>Vyksta projektavimas – rengiamas techninis (darbo) projektas.</li>
+      <li>Priešprojektinė stadija – galimybių studija, inžinerinės infrastruktūros vystymo planas, specialusis planas ir pnš.</li>
+    </ul>
+
+news:
+  title: Naujienos 
+  desc: |
+    <p>Žemėlapis vis dar pildomas.</p>

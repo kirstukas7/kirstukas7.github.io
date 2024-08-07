@@ -1,0 +1,17 @@
+{% if page.lang == "lt" %}
+    {% assign p404 = site.data.p404.lt %}
+{% elsif page.lang == "en" %}
+    {% assign p404 = site.data.p404.en %}
+{% endif %}
+<!DOCTYPE html>
+<head>
+    <title>{{ p404.title.page }}</title>
+    <style type="text/css">
+        body { text-align: center}
+    </style>
+</head>
+<body>
+    <h1>{{ p404.title.info }}</h1>
+    <p><a href="/">{{ p404.back }}</a></p>
+</body>
+</html>

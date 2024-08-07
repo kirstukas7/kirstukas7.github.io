@@ -1,4 +1,5 @@
-local_*
+local*
+*.ai
 _site
 .sass-cache
 .jekyll-cache
