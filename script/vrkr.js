@@ -1,21 +1,8 @@
-// leaflet map setup
-var map = L.map('map');
-map.setView([54.8750, 23.9093], 9);
-map.createPane('skir');
-map.getPane('skir').style.zIndex = 450;
-
 // create base layer
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    minZoom: 9,
-    maxZoom: 15,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
 }).addTo(map);
 
-// create sidebar
-var sidebar = L.control.sidebar({
-    container: 'sidebar',
-    autopan: true
-}).addTo(map);
 // set view by query (if present)
 let searchParams = new URLSearchParams(document.location.search)
 let param = searchParams.get("location");
@@ -46,6 +33,8 @@ var layerKeliai = L.geoJson(null, {
     onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
 });
 
+map.createPane('skir');
+map.getPane('skir').style.zIndex = 450;
 var layerSkiriamosios = L.geoJson(null, {
     style: feature => stiliai_skiriamosios(feature.properties),
     pane: "skir"
@@ -70,7 +59,7 @@ $.getJSON(linkSankryzos, jsonObject => {layerSankryzos.addData(jsonObject)});
 layerKeliai.addTo(map);
 layerSkiriamosios.addTo(map);
 layerRibos.addTo(map);
-//layerSankryzos.addTo(map);
+layerSankryzos.addTo(map);
 
 // remove layer based on zoom level
 map.on("zoom", () => {

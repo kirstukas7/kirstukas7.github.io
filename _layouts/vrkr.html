@@ -6,45 +6,64 @@ layout: zemelapis
 {% elsif page.lang == "en" %}
     {% assign sidebar = site.data.vrkr.en.sidebar %}
 {% endif %}
-<div id="sidebar" class="leaflet-sidebar collapsed">
+<script>
+    // leaflet map setup
+    let map = L.map('map', {
+        minZoom: 9,
+        maxZoom: 15
+    });
+    map.setView([54.89804, 23.90433], 10);
+    
+    // create sidebar
+    var sidebar = L.control.sidebar({
+        autopan: true
+    }).addTo(map);
 
-    <!-- nav tabs -->
-    <div class="leaflet-sidebar-tabs">
-        <!-- top aligned tabs -->
-        <ul role="tablist">
-            <li><a href="#legenda" role="tab"><i class="fa-solid fa-road"></i></a></li>
-            <!--<li><a href="#naujienos" role="tab"><i class="fa-solid fa-newspaper"></i></a></li>-->
-            <li><a onclick="return changeLang()" href="/valstybines-reiksmes-keliu-rekonstrukcijos"><i class="fi fi-{{ sidebar.flag }}"></i></a></li>
-        </ul>
-
-        <!-- bottom aligned tabs -->
-        <ul role="tablist">
-            <li><a href="https://github.com/kirstukas7/Zemelapis-Assets/issues"><i class="fa-solid fa-triangle-exclamation"></i></a></li>
-            <li><a href="/"><i class="fa fa-house"></i></a></li>
-        </ul>
-    </div>
-
-    <!-- panel content -->
-    <div class="leaflet-sidebar-content">
-        <div class="leaflet-sidebar-pane" id="legenda">
-            <h1 class="leaflet-sidebar-header">
-                {{ sidebar.legend.title }}
-                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
-            </h1>
-
-            <p><img src="{{ sidebar.legend.img }}" width="100%" height="auto"></p>
-            <p>{{ sidebar.legend.desc }}</p>
-        </div>
-        <div class="leaflet-sidebar-pane" id="naujienos">
-            <h1 class="leaflet-sidebar-header">
-                {{ sidebar.news.title }}
-                <span class="leaflet-sidebar-close"><i class="fa-solid fa-xmark"></i></span>
-            </h1>
-
-            {{ sidebar.news.desc }}
-        </div>
-    </div>
-</div>
+    // add panels to sidebars
+    sidebar
+        .addPanel({
+            id: '{{ sidebar.legend.id }}',
+            tab: '<i class="fa-solid fa-road"></i>',
+            title: '{{ sidebar.legend.title }}',
+            pane: `{{ sidebar.legend.pane }}`
+        })
+        /*.addPanel({
+            id: 'naujienos',
+            tab: '<i class="fa-solid fa-newspaper"></i>',
+            title: '{{ sidebar.news.title }}',
+            pane: '{{ sidebar.news.pane }}'
+        })*/
+        .addPanel({
+            id: '{{ sidebar.share.id }}',
+            tab: '<i class="fa-solid fa-share-from-square"></i>',
+            title: '{{ sidebar.share.title }}',
+            button: () => shareLocation()
+        })
+        .addPanel({
+            id: '{{ sidebar.language.id }}',
+            tab: '<i class="{{ sidebar.language.icon }}"></i>',
+            title: '{{ sidebar.language.title }}',
+            button: () => {
+                changeLang();
+                window.location.href = '{{ site.data.sites.vrkr }}';
+            },
+            position: 'bottom'
+        })
+        .addPanel({
+            id: '{{ sidebar.error.id }}',
+            tab: '<i class="fa-solid fa-triangle-exclamation"></i>',
+            title: '{{ sidebar.error.title }}',
+            button: 'https://github.com/kirstukas7/Zemelapis-Assets/issues',
+            position: 'bottom'
+        })
+        .addPanel({
+            id: '{{ sidebar.home.id }}',
+            tab: '<i class="fa fa-house"></i>',
+            title: '{{ sidebar.home.title }}',
+            button: '/',
+            position: 'bottom'
+        });
+</script>
 {{ content }}
 {% include share.html %}
 <script src="/script/vrkr_stiliai.js"></script>

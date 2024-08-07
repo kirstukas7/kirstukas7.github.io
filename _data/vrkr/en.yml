@@ -1,18 +1,36 @@
 sidebar:
-  flag: gb
-
   legend:
+    id: legend
     title: Legend
-    img: /icons/legenda.svg
-    desc: |
-      Explanations:
-      <ul>
-        <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
-        <li>Design in progress – a technical (working) project (design) is being prepared.</li>
-        <li>Pre-design phase – feasibility study, engineering infrastructure development plan, special plan, etc.</li>
-      </ul>
+    pane: |
+      <p><img src='/icons/legenda.svg' width='100%' height='auto'></p>
+      <p>Explanations:
+        <ul>
+          <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
+          <li>Design in progress – a technical (working) project (design) is being prepared.</li>
+          <li>Pre-design phase – feasibility study, engineering infrastructure development plan, special plan, etc.</li>
+        </ul>
+      </p>
 
   news:
+    id: news
     title: News
     desc: |
       <p>The map is still being filled.</p>
+
+  share:
+    id: share
+    title: Copy location to share
+
+  language: 
+    id: language
+    title: Pakeisti į lietuvių kalbą
+    icon: fi fi-gb
+
+  error:
+    id: error
+    title: Report an issue
+
+  home:
+    id: home
+    title: Return to links page

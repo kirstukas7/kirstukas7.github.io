@@ -3,6 +3,7 @@
 {% elsif page.lang == "en" %}
     {% assign index = site.data.index.en %}
 {% endif %}
+{% assign sites = site.data.sites %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,9 +14,9 @@
 </head>
 <body>
     <h1>{{ index.title.links }}</h1>
-    <p><a href="/kauno-susisiekimo-projektu-breziniai">{{ index.kspb }}</a></p>
-    <p><a href="/valstybines-reiksmes-keliu-projektiniai-breziniai">{{ index.vrspb }}</a></p>
-    <h3><a href="/valstybines-reiksmes-keliu-rekonstrukcijos">{{ index.vrkr }}</a></h3>
+    <p><a href="{{ sites.kspb }}">{{ index.kspb }}</a></p>
+    <p><a href="{{ sites.vrspb }}">{{ index.vrspb }}</a></p>
+    <h3><a href="{{ sites.vrkr }}">{{ index.vrkr }}</a></h3>
     <p><a onclick="return changeLang('')" href="/">{{ index.lang }}</a></p>
     {% include kalba.html %}
 </body>

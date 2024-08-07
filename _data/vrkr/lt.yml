@@ -1,18 +1,36 @@
 sidebar:
-  flag: lt
-
   legend:
+    id: legenda
     title: Legenda
-    img: /icons/legenda.svg
-    desc: |
-      Paaiškinimai:
-      <ul>
-        <li>Dalinė sankryža – pavienės nuovažos/įvažos, tik vienoje pusėje arba abiejose pusėse be galimybės pervažiuoti į kitą pusę (arba pervažiavimas yra nutolęs).</li>
-        <li>Vyksta projektavimas – rengiamas techninis (darbo) projektas.</li>
-        <li>Priešprojektinė stadija – galimybių studija, inžinerinės infrastruktūros vystymo planas, specialusis planas ir pnš.</li>
-      </ul>
+    pane: |
+      <p><img src='/icons/legenda.svg' width='100%' height='auto'></p>
+      <p>Paaiškinimai:
+        <ul>
+          <li>Dalinė sankryža – pavienės nuovažos/įvažos, tik vienoje pusėje arba abiejose pusėse be galimybės pervažiuoti į kitą pusę (arba pervažiavimas yra nutolęs).</li>
+          <li>Vyksta projektavimas – rengiamas techninis (darbo) projektas.</li>
+          <li>Priešprojektinė stadija – galimybių studija, inžinerinės infrastruktūros vystymo planas, specialusis planas ir pnš.</li>
+        </ul>
+      </p>
 
   news:
+    id: naujienos
     title: Naujienos 
     desc: |
       <p>Žemėlapis vis dar pildomas.</p>
+
+  share:
+    id: dalintis
+    title: Kopijuoti vietovę pasidalinimui
+  
+  language: 
+    id: kalba
+    title: Switch to English
+    icon: fi fi-lt
+  
+  error:
+    id: klaida
+    title: Pranešti klaidą
+
+  home:
+    id: pagrindinis
+    title: Grįžti į nuorodų puslapį
