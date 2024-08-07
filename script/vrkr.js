@@ -9,14 +9,14 @@ let param = searchParams.get("location");
 if (param !== null) {
     var zoomlatlng = param.split('/');
     setTimeout(() => {
-        sidebar.disablePanel('legenda');
+        sidebar.disablePanel('dalintis');
         map.flyTo([zoomlatlng[1], zoomlatlng[2]], zoomlatlng[0], {
             animate: true,
             duration: 2
         });
         setTimeout(() => {
             map.setZoom(zoomlatlng[0]);
-            sidebar.enablePanel('legenda');
+            sidebar.enablePanel('dalintis');
         }, 2000);
     }, 300);
 }
