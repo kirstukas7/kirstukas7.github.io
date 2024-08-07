@@ -1,6 +1,5 @@
 sidebar:
   legend:
-    id: legend
     title: Legend
     pane: |
       <p><img src='/icons/legenda.svg' width='100%' height='auto'></p>
@@ -13,24 +12,19 @@ sidebar:
       </p>
 
   news:
-    id: news
     title: News
     desc: |
       <p>The map is still being filled.</p>
 
   share:
-    id: share
     title: Copy location to share
 
-  language: 
-    id: language
+  language:
     title: Pakeisti į lietuvių kalbą
     icon: fi fi-gb
 
   error:
-    id: error
     title: Report an issue
 
   home:
-    id: home
     title: Return to links page

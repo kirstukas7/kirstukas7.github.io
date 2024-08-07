@@ -1,6 +1,5 @@
 sidebar:
   legend:
-    id: legenda
     title: Legenda
     pane: |
       <p><img src='/icons/legenda.svg' width='100%' height='auto'></p>
@@ -13,24 +12,19 @@ sidebar:
       </p>
 
   news:
-    id: naujienos
-    title: Naujienos 
+    title: Naujienos
     desc: |
       <p>Žemėlapis vis dar pildomas.</p>
 
   share:
-    id: dalintis
     title: Kopijuoti vietovę pasidalinimui
-  
-  language: 
-    id: kalba
+
+  language:
     title: Switch to English
     icon: fi fi-lt
-  
+
   error:
-    id: klaida
     title: Pranešti klaidą
 
   home:
-    id: pagrindinis
     title: Grįžti į nuorodų puslapį

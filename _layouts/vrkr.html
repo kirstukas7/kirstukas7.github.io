@@ -22,7 +22,7 @@ layout: zemelapis
     // add panels to sidebars
     sidebar
         .addPanel({
-            id: '{{ sidebar.legend.id }}',
+            id: 'legenda',
             tab: '<i class="fa-solid fa-road"></i>',
             title: '{{ sidebar.legend.title }}',
             pane: `{{ sidebar.legend.pane }}`
@@ -34,13 +34,13 @@ layout: zemelapis
             pane: '{{ sidebar.news.pane }}'
         })*/
         .addPanel({
-            id: '{{ sidebar.share.id }}',
+            id: 'dalintis',
             tab: '<i class="fa-solid fa-share-from-square"></i>',
             title: '{{ sidebar.share.title }}',
             button: () => shareLocation()
         })
         .addPanel({
-            id: '{{ sidebar.language.id }}',
+            id: 'kalba',
             tab: '<i class="{{ sidebar.language.icon }}"></i>',
             title: '{{ sidebar.language.title }}',
             button: () => {
@@ -50,14 +50,14 @@ layout: zemelapis
             position: 'bottom'
         })
         .addPanel({
-            id: '{{ sidebar.error.id }}',
+            id: 'klaida',
             tab: '<i class="fa-solid fa-triangle-exclamation"></i>',
             title: '{{ sidebar.error.title }}',
             button: 'https://github.com/kirstukas7/Zemelapis-Assets/issues',
             position: 'bottom'
         })
         .addPanel({
-            id: '{{ sidebar.home.id }}',
+            id: 'pagrindinis',
             tab: '<i class="fa fa-house"></i>',
             title: '{{ sidebar.home.title }}',
             button: '/',
