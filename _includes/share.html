@@ -1,0 +1,12 @@
+<script>
+    function shareLocation() {
+        var zoom = map.getZoom().toString().split('.'); zoom = zoom[0];
+
+        var coord = map.getCenter().toString().split(', ');
+        var lat = coord[0].split('('); lat = lat[1].substr(0,7);
+        var lng = coord[1].split(')'); lng = lng[0].substr(0,7);
+
+        let shareLink = "{{ site.url }}/valstybines-reiksmes-keliu-rekonstrukcijos?location="+zoom+"/"+lat+"/"+lng;
+        navigator.clipboard.writeText(shareLink);
+    }
+</script>

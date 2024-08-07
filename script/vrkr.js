@@ -16,6 +16,23 @@ var sidebar = L.control.sidebar({
     container: 'sidebar',
     autopan: true
 }).addTo(map);
+// set view by query (if present)
+let searchParams = new URLSearchParams(document.location.search)
+let param = searchParams.get("location");
+if (param !== null) {
+    var zoomlatlng = param.split('/');
+    setTimeout(() => {
+        sidebar.disablePanel('legenda');
+        map.flyTo([zoomlatlng[1], zoomlatlng[2]], zoomlatlng[0], {
+            animate: true,
+            duration: 2
+        });
+        setTimeout(() => {
+            map.setZoom(zoomlatlng[0]);
+            sidebar.enablePanel('legenda');
+        }, 2000);
+    }, 300);
+}
 
 // link data
 var linkKeliai = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson";
@@ -56,7 +73,7 @@ layerRibos.addTo(map);
 //layerSankryzos.addTo(map);
 
 // remove layer based on zoom level
-map.on("zoomend", function() {
+map.on("zoom", () => {
     var zoomlevel = map.getZoom();
     if (zoomlevel <= 9)
         if (map.hasLayer(layerSankryzos))

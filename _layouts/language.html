@@ -17,10 +17,12 @@
             Cookies.set('lang', language, { expires: 365 });
         }
 
+        const queryString = window.location.search;
+
         if (language == 'lt')
-            window.location.href = "/lt"+"{{ page.permalink }}";
+            window.location.href = "/lt"+"{{ page.permalink }}"+queryString;
         else if (language == 'en')
-            window.location.href = "/en"+"{{ page.permalink }}";
+            window.location.href = "/en"+"{{ page.permalink }}"+queryString;
     </script>
 </body>
 </html>
