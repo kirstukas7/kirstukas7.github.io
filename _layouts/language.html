@@ -10,11 +10,11 @@
         if (language === undefined || language != 'lt' && language != 'en') {
             language = navigator.language || navigator.userLanguage;
             language = language.substring( 0, 2 );
+            
+            if (language != 'lt')
+                language = 'en';
 
-            if (language == 'lt')
-                Cookies.set('lang', 'lt');
-            else
-                Cookies.set('lang', 'en');
+            Cookies.set('lang', language, { expires: 365 });
         }
 
         if (language == 'lt')
