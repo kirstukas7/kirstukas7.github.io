@@ -65,5 +65,3 @@ function stiliai_sankryzos(data) {
     });
     return {icon: icon, keyboard: false, zIndexOffset: zIndexOffset, interactive: interactive};
 };
-
-export { stiliai_keliai, stiliai_skiriamosios, stiliai_ribos, stiliai_sankryzos };

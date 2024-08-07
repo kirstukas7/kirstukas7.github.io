@@ -17,9 +17,6 @@ var sidebar = L.control.sidebar({
     autopan: true
 }).addTo(map);
 
-// data styling reference
-import { stiliai_keliai, stiliai_skiriamosios, stiliai_ribos, stiliai_sankryzos } from './vrkr_stiliai.js';
-
 // link data
 var linkKeliai = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson";
 var linkSkiriamosios = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_skiriamosios.geojson";

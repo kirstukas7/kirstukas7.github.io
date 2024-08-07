@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
+</head>
 <body>
     {{ content }}
     <script>
-        var language = navigator.language || navigator.userLanguage; 
-        language = language.substring( 0, 2 );
-    
-        if (language === 'lt')
+        var language = Cookies.get('lang');
+
+        if (language === undefined || language != 'lt' && language != 'en') {
+            language = navigator.language || navigator.userLanguage;
+            language = language.substring( 0, 2 );
+
+            if (language == 'lt')
+                Cookies.set('lang', 'lt');
+            else
+                Cookies.set('lang', 'en');
+        }
+
+        if (language == 'lt')
             window.location.href = "/lt/"+baseSite;
-        else
+        else if (language == 'en')
             window.location.href = "/en/"+baseSite;
+        /*else
+            location.reload();*/
     </script>
 </body>
 </html>
