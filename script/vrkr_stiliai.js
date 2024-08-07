@@ -38,7 +38,7 @@ function stiliai_ribos(data) {
         case "33": width = 8; break;
     };
     var icon = L.icon({
-        iconUrl: "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/ribos/riba_"+data.lanes+".svg",
+        iconUrl: "/icons/ribos/riba_"+data.lanes+".svg",
         iconSize: [width*mult, width*mult]
     });
     return {icon: icon, keyboard: false, rotationAngle: data.angle, rotationOrigin: "center center", interactive: false};
@@ -60,7 +60,7 @@ function stiliai_sankryzos(data) {
         case "sankr": zIndexOffset = 60; break;
     }
     var icon = L.icon({
-        iconUrl: "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/icons/"+data.type+"/"+data.stage+"_"+data.type+"_"+data.lanes+".svg",
+        iconUrl: "/icons/"+data.type+"/"+data.stage+"_"+data.type+"_"+data.lanes+".svg",
         iconSize: [width*mult, width*mult]
     });
     return {icon: icon, keyboard: false, zIndexOffset: zIndexOffset, interactive: interactive};

@@ -1,0 +1,18 @@
+sidebar:
+  flag: gb
+
+  legend:
+    title: Legend
+    img: /icons/legenda.svg
+    desc: |
+      Explanations:
+      <ul>
+        <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
+        <li>Design in progress – a technical (working) project (design) is being prepared.</li>
+        <li>Pre-design phase – feasibility study, engineering infrastructure development plan, special plan, etc.</li>
+      </ul>
+
+  news:
+    title: News
+    desc: |
+      <p>The map is still being filled.</p>
