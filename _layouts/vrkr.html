@@ -10,7 +10,11 @@ layout: zemelapis
     // leaflet map setup
     let map = L.map('map', {
         minZoom: 9,
-        maxZoom: 15
+        maxZoom: 15,
+        maxBounds: [
+            [56.777, 20.071],
+            [53.526, 27.853]
+        ]
     });
     map.setView([54.89804, 23.90433], 10);
     
