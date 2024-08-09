@@ -3,10 +3,10 @@ layout: zemelapis
 ---
 {% if page.lang == "lt" %}
     {% assign sidebar = site.data.vrkr.lt.sidebar %}
-    {% assign notify = site.data.vrkr.lt.notify %}
+    {% assign notify = site.data.notifications.lt %}
 {% elsif page.lang == "en" %}
     {% assign sidebar = site.data.vrkr.en.sidebar %}
-    {% assign notify = site.data.vrkr.en.notify %}
+    {% assign notify = site.data.notifications.en %}
 {% endif %}
 <script>
     // leaflet map setup
@@ -49,7 +49,7 @@ layout: zemelapis
             title: '{{ sidebar.share.title }}',
             button: () => {
                 shareLocation();
-                showNotification('info','{{ notify.share.title }}','{{ notify.share.desc }}');
+                showNotification('{{ notify.shared}}');
             }
         })
         .addPanel({
@@ -96,6 +96,7 @@ layout: zemelapis
                 }, 2100);
             } catch {
                 enableInteraction();
+                showNotification('{{ notify.locate_error }}');
             };
         }, 300);
     };
@@ -107,8 +108,8 @@ layout: zemelapis
     }
 </script>
 {{ content }}
-<script src="/script/notification.js"></script>
 <script src="/script/vrkr/vrkr_stiliai.js"></script>
 <script src="/script/vrkr/vrkr_data.js"></script>
+{% include notification.html %}
 {% include share.html %}
 {% include kalba.html %}

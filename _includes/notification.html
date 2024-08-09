@@ -1,0 +1,20 @@
+<script>
+    // create notification
+    var notification = L.control.notifications({
+        closable: false,
+        className: 'modern'
+    }).addTo(map);
+
+    // notification handler
+    function showNotification(message) {
+        message = message.split(' | ');
+        var title = message[1];
+        var desc = message[2];
+        switch(message[0]) {
+            case 'error': notification.alert(title, desc); break;
+            case 'info': notification.info(title, desc); break;
+            case 'success': notification.success(title, desc); break;
+            case 'warning': notification.warning(title, desc); break;
+        }
+    };
+</script>
