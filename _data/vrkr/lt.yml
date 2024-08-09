@@ -28,3 +28,8 @@ sidebar:
 
   home:
     title: Grįžti į nuorodų puslapį
+
+notify:
+  share:
+    title: Vietovės dalinimasis
+    desc: Puslapio nuoroda nukuopijuota į iškarpinę

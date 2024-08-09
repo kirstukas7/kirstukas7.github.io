@@ -28,3 +28,8 @@ sidebar:
 
   home:
     title: Return to links page
+
+notify:
+  share:
+    title: Location sharing
+    desc: Page link has been copied to clipboard
