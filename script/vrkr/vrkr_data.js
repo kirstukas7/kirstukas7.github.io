@@ -1,26 +1,3 @@
-// create base layer
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-}).addTo(map);
-
-// set view by query (if present)
-let searchParams = new URLSearchParams(document.location.search)
-let param = searchParams.get("location");
-if (param !== null) {
-    var zoomlatlng = param.split('/');
-    setTimeout(() => {
-        sidebar.disablePanel('dalintis');
-        map.flyTo([zoomlatlng[1], zoomlatlng[2]], zoomlatlng[0], {
-            animate: true,
-            duration: 2
-        });
-        setTimeout(() => {
-            map.setZoom(zoomlatlng[0]);
-            sidebar.enablePanel('dalintis');
-        }, 2000);
-    }, 300);
-}
-
 // link data
 var linkKeliai = "/geojson/vrkr_keliai.geojson";
 var linkSkiriamosios = "/geojson/vrkr_skiriamosios.geojson";
