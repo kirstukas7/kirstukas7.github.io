@@ -22,10 +22,10 @@ if (param !== null) {
 }
 
 // link data
-var linkKeliai = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_keliai.geojson";
-var linkSkiriamosios = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_skiriamosios.geojson";
-var linkRibos = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_ribos.geojson";
-var linkSankryzos = "https://raw.githubusercontent.com/kirstukas7/Zemelapis-Assets/main/geojson/vrkr_sankryzos.geojson";
+var linkKeliai = "/geojson/vrkr_keliai.geojson";
+var linkSkiriamosios = "/geojson/vrkr_skiriamosios.geojson";
+var linkRibos = "/geojson/vrkr_ribos.geojson";
+var linkSankryzos = "/geojson/vrkr_sankryzos.geojson";
 
 // create layers
 var layerKeliai = L.geoJson(null, {

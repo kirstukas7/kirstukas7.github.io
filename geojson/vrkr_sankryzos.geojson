@@ -1,0 +1,1201 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "FeatureCollection",
+            "__comment": "KK130",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "KK130 11,60-19,48",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "KK130 11,60-19,48 nuovazos",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.87717586883365,54.78437939265439,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "KK130 11,60-19,48 sankryzos2",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.9170130632764,54.75329343721627,0],[23.87612395690729,54.79521464409265,0],[23.87338103113728,54.80178991026015,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "KK130 11,60-19,48 sankryzos1",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.87839655533726,54.77798643880442,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "KK130 19,48-31,10",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "KK130 19,48-31,10 nuovazos",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.95928991135091,54.68227878354816,0],[23.95813811125656,54.71317953190556,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "KK130 19,48-31,10 sankryzos1",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.9481967506546,54.6591051151596,0],[23.95264326129234,54.67437507958083,0],[23.96266088706528,54.6950277056317,0],[23.95251713153825,54.72280692552055,0],[23.92887962222836,54.74286837438828,0]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A17",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A17 0,00-3,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 0,00-3,00 sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.335519456408466,55.673548147594779]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A17 3,00-11,07",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 3,00-11,07 nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.272429611091884,55.726213138677807]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 3,00-11,07 sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.278431685826014,55.690139064215053]]
+                            }
+                        },        
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 3,00-11,07 sankryzos2",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.269013461385818,55.716326466738423]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "title":"A9/A17",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [24.275730784237364,55.733550290051717]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A17 11,07-12,93",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 11,07-12,93 sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.276992537035834,55.74297130972078]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A17 12,93-22,24",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 12,93-22,24 nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.318301167435209,55.795985560126972],[24.334519082028372,55.803543822004031],[24.3602291904349,55.80232454954001]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 12,93-22,24 sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.297331912878722,55.769322148861534]]
+                            }
+                        },        
+                        {
+                            "type": "Feature",
+                            "__comment": "A17 12,93-22,24 sankryzos2",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.27790487825288,55.75014292385476],[24.328171349260948,55.801869624914652]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "title":"A10/A17",
+                                "description_lt": "<p>Sankryžos tipas: Turbožiedinė sankryža</p>",
+                                "description_en": "<p>Junction type: Turbo roundabout</p>",
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [24.368243610271715,55.803776718593603]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A10",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A10 9,00-47,30",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A10 9,00-47,30 sankryzos",
+                            "properties":{
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "22G"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[24.335588557375047,55.928771755322643],[24.409903265912533,56.055053176314274],[24.432629638858437,56.067426295560111],[24.468772838762582,56.113908630593968]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A10 47,30-66,08",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A10 47,30-66,08 sankryzos",
+                            "properties":{
+                                "stage": "priesprojektine",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[24.423402962312331,56.228513539828391],[24.370597571722499,56.268506963254538]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A9",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A9 Radviliškis",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Radviliškis nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.544593829855899,55.813994670361083],[23.512834229236482,55.832875911685022]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Radviliškis sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.563899913274657,55.802527737805576],[23.559585911895589,55.805088060711014],[23.556023394755883,55.80720890551332],[23.547252570194939,55.8124127419796],[23.540695627563156,55.816315298888043],[23.529583194170261,55.822932525407218],[23.524546137678016,55.825916176429992],[23.520697730155213,55.828199533434343],[23.517671502383827,55.829994384073935],[23.50970720667863,55.834809995826859]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Radviliškis sankryzos2",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.500465842251415,55.844738045628119]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A9 Radviliškis-Šiauliai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Radviliškis-Šiauliai sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22G"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.481062623362778,55.874852127710504],[23.473242981861624,55.890415253643845],[23.438632113514913,55.899537545214358]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A9 Šiauliai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Šiauliai nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.387573490965384,55.921875496986097]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A9 Šiauliai sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.381790675224863,55.922082916991243],[23.367377693438865,55.922635269610964],[23.363090646505086,55.922844265966127]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A9/A18 sankryza",
+                            "properties": {
+                                "title": "A9/A18",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [23.400114074851761,55.918994638877791]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A8",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A8 7,50-87,80",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A8 7,50-87,80 sankryzos",
+                            "properties": {
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.347266286314227,55.615943496877577],[24.333475123152315,55.569344156458406],[24.326908495154417,55.523721617983981],[24.289619673800665,55.467130780466341],[24.224331348650626,55.426394183204778],[24.154807134870502,55.355174310953416],[24.068726682666863,55.290688399435886],[24.033114287950383,55.219833704785579],[24.001464919435307,55.177831732391809],[23.970357342924515,55.136317296435983],[23.910814464115756,55.085756733105207]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A5",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 0,00-16,45 Vakarinis aplinkkelis",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 0,00-16,45 nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.84241520318177,54.85052450326731,0],[23.83360378127346,54.8623584752462,0],[23.8201966448469,54.88854464704329,0],[23.8522212936716,54.92737847107105,0],[23.86832087144751,54.93347158037129,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 0,00-16,45 sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.85330475712568,54.82561329746755,0],[23.82675804747995,54.89391060255146,0],[23.83374835703358,54.90224597300639,0],[23.83465078390675,54.91214919410147,0],[23.87287549163474,54.93647394352696,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5/KK130 sankryza",
+                            "properties":{
+                                "title":"A5/KK130",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates":[23.86275919850427,54.81181366024654,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 16,465-23,32",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 16,465-23,32 nuovazos",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.84979286718426,54.80741101125786,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 16,465-23,32 sankryzos",
+                            "properties":{
+                                "stage": "projektuojama",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.78782611319678,54.7864733114773,0],[23.78003848864135,54.78146398912661,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 Kaunas-Marijampolė",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 Kaunas-Marijampolė sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.39380972408614,54.59522881175921,0],[23.42276326022822,54.62821500583919,0],[23.68417009826376,54.72591084232495,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 56,83-72,50",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 56,83-72,50 nuovazos",
+                            "properties":{
+                                "stage": "darbai",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.27254727665842,54.55750407397979,0],[23.38905040569341,54.59151224363966,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 56,83-72,50 sankryzos",
+                            "properties":{
+                                "stage": "darbai",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.37838178610547,54.58517920293949,0],[23.2413364772266,54.51924983276711,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5/A7 sankryza",
+                            "properties":{
+                                "title": "A5/A7",
+                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
+                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "stage": "darbai",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.29723770400776,54.57307251810772,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 72,50-79,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 72,50-79,00 nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.21922054512473,54.47639896986393,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 79,00-85,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 79,00-85,00 nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.20584272611578,54.40890893893472,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 79,00-85,00 sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.20345739360926,54.41494891481148,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A5 85,00-97,06",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 85,00-97,06 nuovazos",
+                            "properties":{
+                                "stage": "darbai",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.14169370379172,54.32064844428877,0],[23.152879455641,54.33165582850729,0],[23.18098952403694,54.3687025781131,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 85,00-97,06 sankryzos",
+                            "properties":{
+                                "stage": "darbai",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.128739684781,54.31362780593771,0],[23.16126094654929,54.34049621911893,0],[23.18994889667594,54.37735750033646,0]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A2",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A2 9,276-10,238",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 9,276-10,238 nuovazos",
+                            "properties":{
+                                "stage": "konkursas",
+                                "type": "nuov",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[25.20852236623463,54.75544967414373,0],[25.21430067272693,54.75032386297521,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A2 Vilnius",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Vilnius sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[25.19922827303139,54.76393659522079,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A2 Vilnius-Panevėžys",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Vilnius-Panevėžys nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[24.6574647981978,55.46730279949688,0],[24.85893216821699,55.09528986533939,0],[25.17324869751695,54.79025581837909,0],[25.17977349656151,54.7838138887905,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Vilnius-Panevėžys sankryzos1",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[24.41996128201638,55.61387063529302,0],[24.51627616216541,55.55324258454037,0],[24.53744639454179,55.5398068085457,0],[24.57268993923758,55.5253054733262,0],[24.61704955065041,55.50130471907708,0],[24.66946448140709,55.4517715421855,0],[24.84398402605496,55.11890911983159,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Vilnius-Panevėžys sankryzos2",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[24.70122838731286,55.39747361513855,0],[24.78212830653224,55.31458863610573,0],[24.79443360568011,55.30245817371074,0],[24.81883426065855,55.24787393219561,0],[24.81898711991003,55.22900543473796,0],[24.81114381527291,55.18080619364297,0],[24.88525141124272,55.06623983387252,0],[24.90506460638697,55.02543253108238,0],[24.91210606524597,55.01557994211996,0],[24.96699700441726,54.94744097639427,0],[25.07480149833298,54.87284235775427,0],[25.13098530931724,54.82588143918489,0],[25.1589921698502,54.80470831637385,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2/A6 sankryza",
+                            "properties":{
+                                "title":"A2/A6",
+                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
+                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates":[24.81070621083162,55.27049402808117,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A2 Panevėžys",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Panevėžys nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[24.37506462536098,55.68863777427435,0],[24.36596369403105,55.67130193693292,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 Panevėžys sankryzos1",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[24.3805486513761,55.69916727518178,0],[24.37612560018996,55.6906926662076,0],[24.36725953900373,55.67388427004879,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2/A8/A17 sankryza",
+                            "properties":{
+                                "title": "A2/A8/A17",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates":[24.36273388634215,55.66448514258197,0]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A1",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 Vilnius-Kaunas atkarpos: Vilnius-Grigiškės | Vievis",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Vilnius-Kaunas nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [
+                                    [25.14259300914014,54.65783637764999,0],[25.12353986952472,54.66437694054381,0],
+                                    [24.81973277016596,54.77189899078664,0]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Vilnius-Kaunas sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [
+                                    [25.07713152932137,54.67728398272957,0],[25.10914873021404,54.66856908335986,0],
+                                    [24.80446972065064,54.7761200360021,0],[24.84478097493342,54.76694217911681,0]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A19",
+                            "properties":{
+                                "title": "A1/A19",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [25.15087045447729,54.65473728355318,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 Vilnius-Kaunas atkarpos: Grigiškės-Kaunas",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Vilnius-Kaunas nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[24.00459557223796,54.93046912623217,0],[24.03625031638823,54.92830961371212,0],[24.10888278930366,54.90968664280075,0],[24.11813901382153,54.90653489521129,0],[24.67551636488421,54.78983527780098,0],[25.04291008280869,54.69023531427401,0],[25.05598284023535,54.6841584994342,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Vilnius-Kaunas sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[24.05080050241998,54.92732260280791,0],[24.07472468749323,54.92434299354096,0],[24.0842777450254,54.92001669791777,0],[24.15042998348359,54.89553953037336,0],[24.21581013432811,54.87681419710416,0],[24.34174818165566,54.84198382324596,0],[24.42727463647641,54.81831400624826,0],[24.4534524763069,54.81199357124783,0],[24.50761653560178,54.80263743759542,0],[24.56597518019945,54.79660057659513,0],[24.60629529995578,54.79413118937906,0],[24.66478651343155,54.79050459286671,0],[24.71747488056476,54.78707056184962,0],[24.94217207529456,54.74356576270135,0],[24.98843190062527,54.71101424416067,0],[25.03212116443113,54.6925559402371,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 95,50-99,29",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A6",
+                            "properties":{
+                                "title": "A1/A6",
+                                "description_lt": "<p>2014 metais specialusis planas numatė susikertančią deimantinę sankryžą (Diverging Diamond Interchange).</br>Dabartinės sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Special plan, prepared in 2014, proposed Diverging Diamond Interchange (DDI).</br>Current junction type: Cloverleaf</p>",
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.98268820648717,54.93304010419501,0]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/Ašigalio g.",
+                            "properties":{
+                                "title": "A1/Ašigalio g.",
+                                "description_lt": "<p>Naujai statoma sankryža, paliekant vietos 2x4 keliui ateityje.</p>",
+                                "description_en": "<p>Newly built junction, leaving room for future road expansion to 4x2.</p>",
+                                "stage": "konkursas",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.94308018574814,54.93517705189894,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 99,29-100,47",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 99,29-100,47 sankryzos",
+                            "properties":{
+                                "stage": "darbai",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.91091259519879,54.93675597629974,0],[23.91903759194064,54.93625238303943,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 100,47-101,79",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 100,47-101,79 sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.89871500436967,54.93742313264988,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A5",
+                            "properties":{
+                                "title": "A1/A5",
+                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
+                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.88259053607388,54.93979534099091,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 102,90-107,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 102,90-107,00 nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.868677367868,54.95515480338192,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 102,90-107,00 sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[23.85623950734481,54.97121631569777,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 Kaunas-Klaipėda",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Kaunas-Klaipėda nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.28715984787084,55.71703074748855,0],[21.29311267962814,55.71823292236265,0],[21.35213757143437,55.73016478058963,0],[21.41879360756177,55.72655845359545,0],[21.46381953217104,55.71168970004944,0],[22.35154839794098,55.52837290609252,0],[22.69503152140411,55.46125106055715,0],[23.36864862624028,55.27456009007641,0],[23.54437421176536,55.22758739260712,0],[23.60955032915768,55.20707205868369,0],[23.66653841771967,55.17190796533735,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Kaunas-Klaipėda sankryzos1",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.58399815412364,55.70591826525582,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Kaunas-Klaipėda sankryzos2",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.31304672787239,55.72227131152277,0],[21.38250342628973,55.73267880746913,0],[21.44964634121628,55.71575209832714,0],[21.47985975645949,55.70921539153679,0],[21.55664870634677,55.70744372731961,0],[21.69114354092881,55.687168084529,0],[21.87256527180526,55.64407778757109,0],[21.97562156786129,55.62631125674633,0],[21.99767389744443,55.61944706015089,0],[22.14559654767088,55.58557816339228,0],[22.22010698911194,55.55949121451262,0],[22.31427689884918,55.53578051229147,0],[22.43954162204034,55.50401001786786,0],[22.58438236363109,55.48397363067792,0],[22.76665227122237,55.42313273695227,0],[22.82964964436904,55.41147007876508,0],[22.86484310574836,55.39766039985979,0],[23.0398009829468,55.35429022169654,0],[23.09785401619324,55.33713586000089,0],[23.21494423109733,55.31977462361017,0],[23.27880105032408,55.29500037150719,0],[23.34097994955076,55.27914662456001,0],[23.4806899130906,55.2450439201291,0],[23.51385777860713,55.2368238668401,0],[23.64089228711256,55.18659825795489,0],[23.69653876605222,55.15483830625791,0],[23.72332493062009,55.13942732373213,0],[23.74980880221337,55.1242460633957,0],[23.77918553468579,55.10774498386036,0],[23.80176367964577,55.09647632249705,0],[23.81444924701529,55.07331458171279,0],[23.82408324994108,55.03837821211751,0],[23.84358666919434,54.99653743161037,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Sujainiai sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[22.95094563129619,55.37361596224456,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A8",
+                            "properties":{
+                                "title": "A1/A8",
+                                "description_lt": "<p>Sankryžos tipas: Trimitas</p>",
+                                "description_en": "<p>Junction type: Trumpet</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.82024409835177,55.04852519403755,0]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A12",
+                            "properties":{
+                                "title": "A1/A12",
+                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
+                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22H"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [22.68192440072291,55.46598418620631,0]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 Dirvupiai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Dirvupiai nuovazos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22G"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.26505344240253,55.7125321607285,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Dirvupiai sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22G"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.23033063535001,55.70544884766556,0]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A1 Klaipėda",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A1 Klaipėda sankryzos",
+                            "properties":{
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[21.18951398799004,55.69569135267447,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A13",
+                            "properties":{
+                                "title": "A1/A13",
+                                "description_lt": "<p>Sankryžos tipas: Trijų lygių žiedinė sankryža</p>",
+                                "description_en": "<p>Junction type: Three-level roundabout</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [21.20504514239688,55.70011049576508,0]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

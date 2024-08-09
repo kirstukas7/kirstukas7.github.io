@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "FeatureCollection",
+            "__comment": "KK130",
+            "features": [
+                {
+                    "type": "Feature",
+                    "__comment": "KK130 19,48",
+                    "properties": {
+                        "lanes": "22",
+                        "angle": 149.9
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.91888011457637,54.75123612811681,0]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A10",
+            "features": [
+                {
+                    "type": "Feature",
+                    "__comment": "A10 47,30",
+                    "properties": {
+                        "lanes": "22",
+                        "angle": 172.4
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [24.469936054528134,56.122048545770333]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A5",
+            "features": [
+                {
+                    "type": "Feature",
+                    "__comment": "A5 72,50",
+                    "properties": {
+                        "lanes": "22",
+                        "angle": 17
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.23200808475373,54.50428835836519,0]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A5 79,00",
+                    "properties": {
+                        "lanes": "22",
+                        "angle": 173.5
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.20149697680853,54.44957285905669,0]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A5 85,00",
+                    "properties": {
+                        "lanes": "22",
+                        "angle": 8
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.21031954501289,54.39635392214461,0]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
+            "__comment": "A1",
+            "features": [
+                {
+                    "type": "Feature",
+                    "__comment": "A1 99,29",
+                    "properties": {
+                        "lanes": "33",
+                        "angle": 95.8
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.92818234541323,54.93562984450004,0]
+                    }
+                }
+            ]
+        }
+    ]
+}
