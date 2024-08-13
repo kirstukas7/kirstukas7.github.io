@@ -25,8 +25,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "KK130 11,60-19,48",
-                        "description_lt": "<p>Projektuojamas 2x2 kelias su apjungiamaisiais keliais.</p>",
-                        "description_en": "<p>Design for 2x2 road with access roads.</p>",
+                        "description_lt": "<h4>Kaunas-Prienai</h4><p>Projektuojamas 2x2 kelias su apjungiamaisiais keliais.</p>",
+                        "description_en": "<h4>Kaunas-Prienai</h4><p>Design for 2x2 road with access roads.</p>",
                         "stage": "projektuojamas",
                         "lanes": "22"
                     },
@@ -39,8 +39,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "KK130 19,48-31,10",
-                        "description_lt": "<p>Projektuojamas 2x2 su apjungiamaisiais keliais.</p>",
-                        "description_en": "<p>Design for 2x2 with access roads.</p>",
+                        "description_lt": "<h4>Kaunas-Prienai</h4><p>Projektuojamas 2x2 su apjungiamaisiais keliais.</p>",
+                        "description_en": "<h4>Kaunas-Prienai</h4><p>Design for 2x2 with access roads.</p>",
                         "stage": "projektuojamas",
                         "lanes": "22"
                     },
@@ -415,8 +415,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 56,83-72,50",
-                        "description_lt": "<p>Vyksta rekonstrukcija nuo 2023-06. Numatyta baigti 2024 pabaigoje.</p>",
-                        "description_en": "<p>Reconstruction in progress since 2023-06. Expected finish at the end of 2024.</p>",
+                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Vyksta rekonstrukcija nuo 2023-06. Numatyta baigti 2024 pabaigoje.</p>",
+                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction in progress since 2023-06. Expected finish at the end of 2024.</p>",
                         "stage": "darbai",
                         "lanes": "22"
                     },
@@ -429,8 +429,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 72,50-79,00",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2023-10.</p>",
-                        "description_en": "<p>Reconstruction works finished 2023-10.</p>",
+                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Rekonstravimo darbai baigti 2023-10.</p>",
+                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction works finished 2023-10.</p>",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -443,8 +443,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 79,00-85,00",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2023-12.</p>",
-                        "description_en": "<p>Reconstruction works finished 2023-12.</p>",
+                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Rekonstravimo darbai baigti 2023-12.</p>",
+                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction works finished 2023-12.</p>",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -457,8 +457,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 85,00-97,06",
-                        "description_lt": "<p>Vyksta rekonstrukcija nuo 2024-06. Numatyta baigti 2025 pabaigoje.</p>",
-                        "description_en": "<p>Reconstruction in progress since 2024-06. Expected finish at the end of 2025.</p>",
+                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Vyksta rekonstrukcija nuo 2024-06. Numatyta baigti 2025 pabaigoje.</p>",
+                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction in progress since 2024-06. Expected finish at the end of 2025.</p>",
                         "stage": "darbai",
                         "lanes": "22"
                     },

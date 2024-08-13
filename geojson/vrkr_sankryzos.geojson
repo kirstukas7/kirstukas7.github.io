@@ -689,7 +689,20 @@
                             },
                             "geometry":{
                                 "type": "MultiPoint",
-                                "coordinates": [[25.20852236623463,54.75544967414373,0],[25.21430067272693,54.75032386297521,0]]
+                                "coordinates": [[25.21430067272693,54.75032386297521,0]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 9,276-10,238 sankryzos",
+                            "properties":{
+                                "stage": "konkursas",
+                                "type": "sankr",
+                                "lanes": "33"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[25.20852236623463,54.75544967414373,0]]
                             }
                         }
                     ]
