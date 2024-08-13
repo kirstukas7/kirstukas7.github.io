@@ -86,6 +86,66 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A18",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A18 0,00-17,08",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A18 0,00-17,08 sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.332021588639517,55.981800033416519]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A18 17,08-24,10",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A18 17,08-24,10 sankryzos",
+                            "properties": {
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.384167528533482,55.956949952438165],[23.403428070301928,55.921248969823075]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A12/A18",
+                            "properties": {
+                                "title": "A12/A18",
+                                "description_lt": "<p>Numatomos sankryžos tipas: Svarmuo (dumbbell) – deimantinė su žiedinėmis sankryžomis</p>",
+                                "description_en": "<p>Proposed junction type: Dumbbell – diamond with roundabouts</p>",
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [23.356689951619089,55.971896734189201]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A17",
             "features": [
                 {
