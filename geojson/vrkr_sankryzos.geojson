@@ -310,6 +310,92 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A12",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A12 esamas",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A12 esamas sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.072518201657342,55.802566416683234],[23.048126981296726,55.787964057539732],[23.030152838897994,55.774480635953317],[23.007757419968005,55.737263904996581],[22.924826758590008,55.644980528016092],[22.895064427297093,55.610426713246298],[22.684146829770114,55.467462579897209],[22.568576005371302,55.412733751520356]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A12 Šiauliai-Bubiai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A12 Šiauliai-Bubiai nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.230940112095769,55.892651785786541],[23.207930396915245,55.88230812879663],[23.19455240196384,55.876246816655275],[23.185330472087212,55.872063145757245],[23.179755066297613,55.869536350382077],[23.153885690960198,55.857779190858935],[23.147667672189865,55.854958273035116]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A12 Šiauliai-Bubiai sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.203942667085784,55.880495885593682]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A12 Šiauliai-Bubiai sankryzos2",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.162512154044911,55.861700466542771],[23.139953167167636,55.851467246371882],[23.131404463393618,55.84757028673905]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A12/A18",
+                            "properties": {
+                                "title": "A12/A18",
+                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
+                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [23.220893377346968,55.888163285536905]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A10",
             "features": [
                 {
