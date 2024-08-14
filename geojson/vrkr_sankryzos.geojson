@@ -310,6 +310,110 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A13",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A13 Klaipėda",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A13 Klaipėda nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.20146577497086,55.705784753836802],[21.196337054835883,55.713749181437166],[21.192213769233739,55.720156355729408],[21.178910356561932,55.740770252556928],[21.171396845113765,55.752402444764286],[21.165600534245357,55.761071752717285],[21.161829091494273,55.766569359302189],[21.15348765976692,55.778744574147495],[21.149900135231768,55.783093332746205],[21.146176029268066,55.787316120859543]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A13 Klaipėda sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.185008906290129,55.731320109939595],[21.170276710166373,55.754131494897393],[21.141574498920757,55.79252513125936]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A13 12,10-19,20",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A13 12,10-19,20 nuovazos",
+                            "properties": {
+                                "stage": "priesprojektine",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.12859312382901,55.809976810466111],[21.127609595267291,55.812819081207081]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A13 12,10-19,20 sankryzos",
+                            "properties": {
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.122899248605073,55.826060216981986],[21.094419857249708,55.860940347969105]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A13 Palanga",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A13 Palanga sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.104685541367768,55.902743712375859]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "title": "A11/A13",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.106429971058191,55.907926156141421]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A12",
             "features": [
                 {
