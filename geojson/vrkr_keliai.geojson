@@ -422,8 +422,8 @@
                     "__comment": "A11 Palanga4",
                     "properties": {
                         "title": "A11 Šiauliai-Palanga",
-                        "description_lt": "<p>4 juostų gatvė.</p>",
-                        "description_en": "<p>4-lane street.</p>",
+                        "description_lt": "<p>Rekonstravimo darbai baigti 2019 metais.</p><p>4 juostų gatvė.</p>",
+                        "description_en": "<p>Reconstruction works finished in 2019.</p><p>4-lane street.</p>",
                         "stage": "veikiantis",
                         "lanes": "04"
                     },
