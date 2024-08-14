@@ -396,6 +396,170 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A11",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A11 Šiauliai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Šiauliai nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.258901579708862,55.952055624702545]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Šiauliai sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.272375763522618,55.945525169003659],[23.265433134916702,55.948853147779374]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A11 Šiauliai-Kuršėnai",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Šiauliai-Kuršėnai nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.23819615168135,55.960134935210505],[23.221401711993433,55.962653344020858],[23.206625157053114,55.964092021621589],[23.199727740903189,55.964874054696686],[23.189666441804764,55.967725637890929],[23.123193885205261,55.981364770817542],[23.055922064166602,55.990028954786844],[23.016278347078554,55.994431491915698],[23.009370610816795,55.995349669560767]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Šiauliai-Kuršėnai sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.214392176609604,55.963369647526847],[23.186007103962879,55.969165896323602],[23.137677578725498,55.97956417654769],[23.105202401462833,55.983598450209463],[23.030719248079979,55.992674481238069]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "title": "A11/KK203",
+                                "description_lt": "<p>Sankryžos tipas: Su apsisukimais pagrindiniame kelyje</p>",
+                                "description_en": "<p>Junction type: With u-turns on a main road</p>",
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [22.993078378572207,55.998944847210431]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "title": "A11/A18",
+                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
+                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [23.248320529452734,55.956959924285698]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A11 Kretinga",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Kretinga nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.239926403221833,55.89634422740361]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Kretinga sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.245798513347022,55.896605890445841],[21.236636377250207,55.896213225511929],[21.226382439130916,55.895701031421218]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A11 Palanga",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Palanga nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.101068371126225,55.909282572912716],[21.097479435446001,55.910191347734667]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Palanga sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[21.087792215544297,55.912637533498248]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A10",
             "features": [
                 {
