@@ -129,8 +129,8 @@
                             "__comment": "A12/A18",
                             "properties": {
                                 "title": "A12/A18",
-                                "description_lt": "<p>Numatomos sankryžos tipas: Svarmuo (dumbbell) – deimantinė su žiedinėmis sankryžomis</p>",
-                                "description_en": "<p>Proposed junction type: Dumbbell – diamond with roundabouts</p>",
+                                "description_lt": "Numatomos sankryžos tipas: Svarmuo (dumbbell) – deimantinė su žiedinėmis sankryžomis",
+                                "description_en": "Proposed junction type: Dumbbell – diamond with roundabouts",
                                 "stage": "priesprojektine",
                                 "type": "sankr",
                                 "lanes": "11"
@@ -214,8 +214,8 @@
                             "type": "Feature",
                             "properties": {
                                 "title":"A9/A17",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "21"
@@ -293,8 +293,8 @@
                             "type": "Feature",
                             "properties": {
                                 "title":"A10/A17",
-                                "description_lt": "<p>Sankryžos tipas: Turbožiedinė sankryža</p>",
-                                "description_en": "<p>Junction type: Turbo roundabout</p>",
+                                "description_lt": "Sankryžos tipas: Turbožiedinė sankryža",
+                                "description_en": "Junction type: Turbo roundabout",
                                 "stage": "veikianti",
                                 "type": "xsan",
                                 "lanes": "22"
@@ -397,8 +397,8 @@
                             "type": "Feature",
                             "properties": {
                                 "title": "A11/A13",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -483,8 +483,8 @@
                             "__comment": "A12/A18",
                             "properties": {
                                 "title": "A12/A18",
-                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
-                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dalinis dobilas",
+                                "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -568,8 +568,8 @@
                             "type": "Feature",
                             "properties": {
                                 "title": "A11/KK203",
-                                "description_lt": "<p>Sankryžos tipas: Su apsisukimais pagrindiniame kelyje</p>",
-                                "description_en": "<p>Junction type: With u-turns on a main road</p>",
+                                "description_lt": "Sankryžos tipas: Su apsisukimais pagrindiniame kelyje",
+                                "description_en": "Junction type: With u-turns on a main road",
                                 "stage": "veikianti",
                                 "type": "xsan",
                                 "lanes": "22"
@@ -583,8 +583,8 @@
                             "type": "Feature",
                             "properties": {
                                 "title": "A11/A18",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -809,8 +809,8 @@
                             "__comment": "A9/A18 sankryza",
                             "properties": {
                                 "title": "A9/A18",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -888,8 +888,8 @@
                             "__comment": "A5/KK130 sankryza",
                             "properties":{
                                 "title":"A5/KK130",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -987,8 +987,8 @@
                             "__comment": "A5/A7 sankryza",
                             "properties":{
                                 "title": "A5/A7",
-                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
-                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dalinis dobilas",
+                                "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "darbai",
                                 "type": "sankr",
                                 "lanes": "22H"
@@ -1188,8 +1188,8 @@
                             "__comment": "A2/A6 sankryza",
                             "properties":{
                                 "title":"A2/A6",
-                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
-                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dalinis dobilas",
+                                "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22H"
@@ -1236,8 +1236,8 @@
                             "__comment": "A2/A8/A17 sankryza",
                             "properties":{
                                 "title": "A2/A8/A17",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -1296,8 +1296,8 @@
                             "__comment": "A1/A19",
                             "properties":{
                                 "title": "A1/A19",
-                                "description_lt": "<p>Sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Junction type: Cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dobilas",
+                                "description_en": "Junction type: Cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"
@@ -1350,8 +1350,8 @@
                             "__comment": "A1/A6",
                             "properties":{
                                 "title": "A1/A6",
-                                "description_lt": "<p>2014 metais specialusis planas numatė susikertančią deimantinę sankryžą (Diverging Diamond Interchange).</br>Dabartinės sankryžos tipas: Dobilas</p>",
-                                "description_en": "<p>Special plan, prepared in 2014, proposed Diverging Diamond Interchange (DDI).</br>Current junction type: Cloverleaf</p>",
+                                "description_lt": "2014 metais specialusis planas numatė susikertančią deimantinę sankryžą (Diverging Diamond Interchange).</br>Dabartinės sankryžos tipas: Dobilas",
+                                "description_en": "Special plan, prepared in 2014, proposed Diverging Diamond Interchange (DDI).</br>Current junction type: Cloverleaf",
                                 "stage": "priesprojektine",
                                 "type": "sankr",
                                 "lanes": "33"
@@ -1366,8 +1366,8 @@
                             "__comment": "A1/Ašigalio g.",
                             "properties":{
                                 "title": "A1/Ašigalio g.",
-                                "description_lt": "<p>Naujai statoma sankryža, paliekant vietos 2x4 keliui ateityje.</p>",
-                                "description_en": "<p>Newly built junction, leaving room for future road expansion to 4x2.</p>",
+                                "description_lt": "Naujai statoma sankryža, paliekant vietos 2x4 keliui ateityje.",
+                                "description_en": "Newly built junction, leaving room for future road expansion to 4x2.",
                                 "stage": "konkursas",
                                 "type": "sankr",
                                 "lanes": "33"
@@ -1420,8 +1420,8 @@
                             "__comment": "A1/A5",
                             "properties":{
                                 "title": "A1/A5",
-                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
-                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dalinis dobilas",
+                                "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "33"
@@ -1526,8 +1526,8 @@
                             "__comment": "A1/A8",
                             "properties":{
                                 "title": "A1/A8",
-                                "description_lt": "<p>Sankryžos tipas: Trimitas</p>",
-                                "description_en": "<p>Junction type: Trumpet</p>",
+                                "description_lt": "Sankryžos tipas: Trimitas",
+                                "description_en": "Junction type: Trumpet",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22H"
@@ -1542,8 +1542,8 @@
                             "__comment": "A1/A12",
                             "properties":{
                                 "title": "A1/A12",
-                                "description_lt": "<p>Sankryžos tipas: Dalinis dobilas</p>",
-                                "description_en": "<p>Junction type: Partial cloverleaf</p>",
+                                "description_lt": "Sankryžos tipas: Dalinis dobilas",
+                                "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22H"
@@ -1609,8 +1609,8 @@
                             "__comment": "A1/A13",
                             "properties":{
                                 "title": "A1/A13",
-                                "description_lt": "<p>Sankryžos tipas: Trijų lygių žiedinė sankryža</p>",
-                                "description_en": "<p>Junction type: Three-level roundabout</p>",
+                                "description_lt": "Sankryžos tipas: Trijų lygių žiedinė sankryža",
+                                "description_en": "Junction type: Three-level roundabout",
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22"

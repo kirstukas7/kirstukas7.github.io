@@ -25,8 +25,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "KK130 11,60-19,48",
-                        "description_lt": "<h4>Kaunas-Prienai</h4><p>Projektuojamas 2x2 kelias su apjungiamaisiais keliais.</p>",
-                        "description_en": "<h4>Kaunas-Prienai</h4><p>Design for 2x2 road with access roads.</p>",
+                        "title2": "Kaunas-Prienai",
+                        "description_lt": "Projektuojamas 2x2 kelias su apjungiamaisiais keliais.",
+                        "description_en": "Design for 2x2 road with access roads.",
                         "stage": "projektuojamas",
                         "lanes": "22"
                     },
@@ -39,8 +40,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "KK130 19,48-31,10",
-                        "description_lt": "<h4>Kaunas-Prienai</h4><p>Projektuojamas 2x2 su apjungiamaisiais keliais.</p>",
-                        "description_en": "<h4>Kaunas-Prienai</h4><p>Design for 2x2 with access roads.</p>",
+                        "title2": "Kaunas-Prienai",
+                        "description_lt": "Projektuojamas 2x2 su apjungiamaisiais keliais.",
+                        "description_en": "Design for 2x2 with access roads.",
                         "stage": "projektuojamas",
                         "lanes": "22"
                     },
@@ -61,8 +63,8 @@
                     "properties": {
                         "title": "A18 Šiaulių aplinkkelis",
                         "title_en": "A18 Šiauliai bypass",
-                        "description_lt": "<p>2016 metais parengtas specialusis planas, 2023 metais parengtas plano keitimas (atnaujinimas).</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.</p>",
-                        "description_en": "<p>Special plan was prepared in 2016, plan change (update) prepared in 2023.</p><p>Plan implementation no earlier than 2030.</p>",
+                        "description_lt": "2016 metais parengtas specialusis planas, 2023 metais parengtas plano keitimas (atnaujinimas).</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.",
+                        "description_en": "Special plan was prepared in 2016, plan change (update) prepared in 2023.</p><p>Plan implementation no earlier than 2030.",
                         "stage": "priesprojektinis",
                         "lanes": "11"
                     },
@@ -99,8 +101,8 @@
                     "properties": {
                         "title": "A17 Panevėžio aplinkkelis",
                         "title_en": "A17 Panevėžys bypass",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2018 metais.</br></br>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2018.</br></br>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2018 metais.</p><p>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.",
+                        "description_en": "Reconstruction works finished in 2018.</p><p>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -114,8 +116,8 @@
                     "properties": {
                         "title": "A17 Panevėžio aplinkkelis",
                         "title_en": "A17 Panevėžys bypass",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2018 metais.</br></br>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2018.</br></br>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2018 metais.</p><p>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.",
+                        "description_en": "Reconstruction works finished in 2018.</p><p>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.",
                         "stage": "veikiantis",
                         "lanes": "21"
                     },
@@ -133,8 +135,8 @@
                     "properties": {
                         "title": "A17 Panevėžio aplinkkelis",
                         "title_en": "A17 Panevėžys bypass",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2019 metais.</br></br>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2019.</br></br>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2019 metais.</p><p>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.",
+                        "description_en": "Reconstruction works finished in 2019.</p><p>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.",
                         "stage": "veikiantis",
                         "lanes": "11"
                     },
@@ -148,8 +150,8 @@
                     "properties": {
                         "title": "A17 Panevėžio aplinkkelis",
                         "title_en": "A17 Panevėžys bypass",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2019 metais.</br></br>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2019.</br></br>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2019 metais.</p><p>Visam keliui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.",
+                        "description_en": "Reconstruction works finished in 2019.</p><p>Alternatives to be prepared for the whole road for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.",
                         "stage": "veikiantis",
                         "lanes": "21"
                     },
@@ -187,8 +189,9 @@
                     "__comment": "A13 12,10-19,20",
                     "properties": {
                         "title": "A13 12,10-19,20",
-                        "description_lt": "<h4>Klaipėda-LT/LV</h4><p>2017 metais parengtas specialusis planas, kuriuo numatoma įrengti skirtingo lygio sankryžas ir apjungiamuosius kelius.</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.</p>",
-                        "description_en": "<h4>Klaipėda-LT/LV</h4><p>Special plan was prepared in 2017 which proposes new 2-level junctions and access roads.</p><p>Plan implementation no earlier than 2030.</p>",
+                        "title2": "Klaipėda-LT/LV",
+                        "description_lt": "2017 metais parengtas specialusis planas, kuriuo numatoma įrengti skirtingo lygio sankryžas ir apjungiamuosius kelius.</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.",
+                        "description_en": "Special plan was prepared in 2017 which proposes new 2-level junctions and access roads.</p><p>Plan implementation no earlier than 2030.",
                         "stage": "priesprojektinis",
                         "lanes": "22"
                     },
@@ -216,8 +219,8 @@
                     "properties": {
                         "title": "A13 Palangos aplinkkelis",
                         "title_en": "A13 Palanga bypass",
-                        "description_lt": "<p>Naujos statybos darbai baigti 2015 metais.</p>",
-                        "description_en": "<p>New construction works finished in 2015.</p>",
+                        "description_lt": "Naujos statybos darbai baigti 2015 metais.",
+                        "description_en": "New construction works finished in 2015.",
                         "stage": "veikiantis",
                         "lanes": "11"
                     },
@@ -251,8 +254,8 @@
                     "properties": {
                         "title": "A21 Panemunės aplinkkelis",
                         "title_en": "A21 Panemunė bypass",
-                        "description_lt": "<p>Pastatytas 2015 metais.</br>2018 metais nustatyta, jog nenaudojamo kelio sankasa vietomis įdubo apie metrą.</br>2021 metais sutvarkytas.</p><p>Kelias šiuo metu naudojamas pasieniečių.</p>",
-                        "description_en": "<p>Built in 2015.</br>In 2018, it was established that the embankment of the disused road had sunk in places by about a meter.</br>Fixed in 2021.</p><p>Currently the road is used by border guards.</p>",
+                        "description_lt": "Pastatytas 2015 metais.</br>2018 metais nustatyta, jog nenaudojamo kelio sankasa vietomis įdubo apie metrą.</br>2021 metais sutvarkytas.</p><p>Kelias šiuo metu naudojamas pasieniečių.",
+                        "description_en": "Built in 2015.</br>In 2018, it was established that the embankment of the disused road had sunk in places by about a meter.</br>Fixed in 2021.</p><p>Currently the road is used by border guards.",
                         "stage": "veikiantis",
                         "lanes": "11"
                     },
@@ -313,8 +316,8 @@
                     "__comment": "A12 esamas3: KK141 | A21 | PKP Rambynas",
                     "properties": {
                         "title": "A12 Tauragė-LT/RU",
-                        "description_lt": "<p>3 juostų kelias, be atitvarų ir saugos juostų.</p>",
-                        "description_en": "<p>3-lane road, without barriers and safety lanes.</p>",
+                        "description_lt": "3 juostų kelias, be atitvarų ir saugos juostų.",
+                        "description_en": "3-lane road, without barriers and safety lanes.",
                         "stage": "veikiantis",
                         "lanes": "03"
                     },
@@ -346,8 +349,8 @@
                     "__comment": "A12 Šiauliai",
                     "properties": {
                         "title": "A12 LT/LV-Šiauliai",
-                        "description_lt": "<p>4 juostų kelias.</p>",
-                        "description_en": "<p>4-lane road.</p>",
+                        "description_lt": "4 juostų kelias.",
+                        "description_en": "4-lane road.",
                         "stage": "veikiantis",
                         "lanes": "04"
                     },
@@ -374,8 +377,8 @@
                     "__comment": "A12 Tauragė3",
                     "properties": {
                         "title": "A12 Šiauliai-Tauragė",
-                        "description_lt": "<p>3 juostų gatvė.</p>",
-                        "description_en": "<p>3-lane street.</p>",
+                        "description_lt": "3 juostų gatvė.",
+                        "description_en": "3-lane street.",
                         "stage": "veikiantis",
                         "lanes": "03"
                     },
@@ -389,8 +392,8 @@
                     "__comment": "A12 Tauragė4",
                     "properties": {
                         "title": "A12 Šiauliai-Tauragė",
-                        "description_lt": "<p>4 juostų gatvė.</p>",
-                        "description_en": "<p>4-lane street.</p>",
+                        "description_lt": "4 juostų gatvė.",
+                        "description_en": "4-lane street.",
                         "stage": "veikiantis",
                         "lanes": "04"
                     },
@@ -428,8 +431,8 @@
                     "__comment": "A11 Šiauliai21",
                     "properties": {
                         "title": "A11 Šiauliai-Palanga",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2018 metais.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2018.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2018 metais.",
+                        "description_en": "Reconstruction works finished in 2018.",
                         "stage": "veikiantis",
                         "lanes": "21"
                     },
@@ -483,8 +486,8 @@
                     "__comment": "A11 Kuršėnai4",
                     "properties": {
                         "title": "A11 Šiauliai-Palanga",
-                        "description_lt": "<p>4 juostų gatvė.</p>",
-                        "description_en": "<p>4-lane street.</p>",
+                        "description_lt": "4 juostų gatvė.",
+                        "description_en": "4-lane street.",
                         "stage": "veikiantis",
                         "lanes": "04"
                     },
@@ -524,8 +527,8 @@
                     "__comment": "A11 Palanga4",
                     "properties": {
                         "title": "A11 Šiauliai-Palanga",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2019 metais.</p><p>4 juostų gatvė.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2019.</p><p>4-lane street.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2019 metais.</p><p>4 juostų gatvė.",
+                        "description_en": "Reconstruction works finished in 2019.</p><p>4-lane street.",
                         "stage": "veikiantis",
                         "lanes": "04"
                     },
@@ -556,8 +559,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A10 9,00-47,30",
-                        "description_lt": "<h4>Panevėžys-LT/LV</h4><p>Po A10 studijos nubalsuota už 2x2 greitkelio ir 2+1 kelio alternatyvą, įvertinant 2x2 įrengimo galimybę.</br></br>Šiam ruožui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>).</li></ul></p>",
-                        "description_en": "<h4>Panevėžys-LT/LV</h4><p>After the A10 study, it was voted in favor of the 2x2 expressway and 2+1 road alternative considering the possibility of 2x2 installation.</br></br>Alternatives to be prepared for this section for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>).</li></ul></p>",
+                        "title2": "Panevėžys-LT/LV",
+                        "description_lt": "Po A10 studijos nubalsuota už 2x2 greitkelio ir 2+1 kelio alternatyvą, įvertinant 2x2 įrengimo galimybę.</br></br>Šiam ruožui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>).</li></ul></p>",
+                        "description_en": "After the A10 study, it was voted in favor of the 2x2 expressway and 2+1 road alternative considering the possibility of 2x2 installation.</br></br>Alternatives to be prepared for this section for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>).</li></ul></p>",
                         "stage": "priesprojektinis",
                         "lanes": "22"
                     },
@@ -570,8 +574,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A10 47,30-66,08",
-                        "description_lt": "<h4>Panevėžys-LT/LV</h4><p>Po A10 studijos nubalsuota už 2x2 greitkelio ir 2+1 kelio alternatyvą, įvertinant 2x2 įrengimo galimybę.</br></br>Šiam ruožui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2+1 kelias (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">IIa kat.</a>).</li></ul></p>",
-                        "description_en": "<h4>Panevėžys-LT/LV</h4><p>After the A10 study, it was voted in favor of the 2x2 expressway and 2+1 road alternative considering the possibility of 2x2 installation.</br></br>Alternatives to be prepared for this section for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2+1 road (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">IIa cat.</a>).</li></ul></p>",
+                        "title2": "Panevėžys-LT/LV",
+                        "description_lt": "Po A10 studijos nubalsuota už 2x2 greitkelio ir 2+1 kelio alternatyvą, įvertinant 2x2 įrengimo galimybę.</br></br>Šiam ruožui ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2+1 kelias (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">IIa kat.</a>).</li></ul>",
+                        "description_en": "After the A10 study, it was voted in favor of the 2x2 expressway and 2+1 road alternative considering the possibility of 2x2 installation.</br></br>Alternatives to be prepared for this section for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2+1 road (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">IIa cat.</a>).</li></ul>",
                         "stage": "priesprojektinis",
                         "lanes": "21"
                     },
@@ -629,8 +634,8 @@
                     "__comment": "A9 Radviliškis-Gudeliai",
                     "properties": {
                         "title": "A9 Panevėžys-Šiauliai",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2011 metais.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2011.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2011 metais.",
+                        "description_en": "Reconstruction works finished in 2011.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -648,8 +653,8 @@
                     "properties": {
                         "title": "A9 Kairių aplinkkelis",
                         "title_en": "A9 Kairiai bypass",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2013 metais.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2013.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2013 metais.",
+                        "description_en": "Reconstruction works finished in 2013.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -663,8 +668,8 @@
                     "__comment": "A9 Šiauliai",
                     "properties": {
                         "title": "A9 Panevėžys-Šiauliai",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2013 metais.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2013.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2013 metais.",
+                        "description_en": "Reconstruction works finished in 2013.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -683,8 +688,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A8",
-                        "description_lt": "<p>Senas kelias.</p>",
-                        "description_en": "<p>Old road.</p>",
+                        "description_lt": "Senas kelias.",
+                        "description_en": "Old road.",
                         "stage": "veikiantis",
                         "lanes": "11"
                     },
@@ -700,8 +705,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A8 7,50-87,80",
-                        "description_lt": "<h4>Panevėžys-Sitkūnai</h4><p>Po A8 studijos nubalsuota už 2x2 automagistralės alternatyvą.</br></br>Ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul></p>",
-                        "description_en": "<h4>Panevėžys-Sitkūnai</h4><p>After the A8 study, it was voted in favor of the 2x2 motorway alternative.</br></br>Alternatives to be prepared for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul></p>",
+                        "title2": "Panevėžys-Sitkūnai",
+                        "description_lt": "Po A8 studijos nubalsuota už 2x2 automagistralės alternatyvą.</br></br>Ruošiamos alternatyvos specialiajam planavimui (su apjungiamaisiais keliais):<ul><li>2x2 greitkelis (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I kat.</a>),</li><li>2x2 automagistralė (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM kat.</a>).</li></ul>",
+                        "description_en": "After the A8 study, it was voted in favor of the 2x2 motorway alternative.</br></br>Alternatives to be prepared for special planning (with access roads):<ul><li>2x2 expressway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">I cat.</a>),</li><li>2x2 motorway (<a href=\"https://e-seimas.lrs.lt/rs/actualedition/TAIS.313209/VaTtVTdHDz/content_files/image004.jpg\" target=\"_blank\">AM cat.</a>).</li></ul>",
                         "stage": "priesprojektinis",
                         "lanes": "22"
                     },
@@ -738,8 +744,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5",
-                        "description_lt": "<p>Senas kelias.</p>",
-                        "description_en": "<p>Old road.</p>",
+                        "description_lt": "Senas kelias.",
+                        "description_en": "Old road.",
                         "stage": "veikiantis",
                         "lanes": "11"
                     },
@@ -752,8 +758,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "RK2626",
-                        "description_lt": "<p>Kelio tęsinys tiesiogiai iki sankryžos.</p>",
-                        "description_en": "<p>Road link directly to junction.</p>",
+                        "description_lt": "Kelio tęsinys tiesiogiai iki sankryžos.",
+                        "description_en": "Road link directly to junction.",
                         "stage": "darbai",
                         "lanes": "11"
                     },
@@ -768,8 +774,8 @@
                     "properties": {
                         "title": "A5 Kauno Vakarinis aplinkkelis",
                         "title_en": "A5 Kaunas Western bypass",
-                        "description_lt": "<p>Ruošiamos alternatyvos (su apjungiamaisiais keliais): <ul><li>2x2 greitkelis,</li> <li>2x2 automagistralė,</li> <li>2x3.</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.</p>",
-                        "description_en": "<p>Alternatives to be prepared (with access roads): <ul><li>2x2 expressway,</li> <li>2x2 motorway,</li> <li>2x3.</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.</p>",
+                        "description_lt": "Ruošiamos alternatyvos (su apjungiamaisiais keliais): <ul><li>2x2 greitkelis,</li> <li>2x2 automagistralė,</li> <li>2x3.</li></ul></p><p style=\"font-size:11px\">* Nepažymėta kaip priešprojektinė stadija, kadangi dar nėra jokių brėžinių.",
+                        "description_en": "Alternatives to be prepared (with access roads): <ul><li>2x2 expressway,</li> <li>2x2 motorway,</li> <li>2x3.</li></ul></p><p style=\"font-size:11px\">* Not marked as pre-design phase as there are no drawings yet.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -782,8 +788,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 16,465-23,32",
-                        "description_lt": "<p>Projektuojami trūkstami apjungiamieji keliai, siekiant panaikinti apsisukimą ir paversti ruožą į automagistralę.</p>",
-                        "description_en": "<p>Design for missing access roads in order to remove u-turn and allow motorway status.</p>",
+                        "description_lt": "Projektuojami trūkstami apjungiamieji keliai, siekiant panaikinti apsisukimą ir paversti ruožą į automagistralę.",
+                        "description_en": "Design for missing access roads in order to remove u-turn and allow motorway status.",
                         "stage": "projektuojamas",
                         "lanes": "22"
                     },
@@ -796,8 +802,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 Kaunas-Marijampolė",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2017-2018, automagistralė nuo 2018-11.</p>",
-                        "description_en": "<p>Reconstruction works finished 2017-2018, motorway since 2018-11.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2017-2018, automagistralė nuo 2018-11.",
+                        "description_en": "Reconstruction works finished 2017-2018, motorway since 2018-11.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -810,8 +816,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 56,83-72,50",
-                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Vyksta rekonstrukcija nuo 2023-06. Numatyta baigti 2024 pabaigoje.</p>",
-                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction in progress since 2023-06. Expected finish at the end of 2024.</p>",
+                        "title2": "Marijampolė-LT/PL",
+                        "description_lt": "Vyksta rekonstrukcija nuo 2023-06. Numatyta baigti 2024 pabaigoje.",
+                        "description_en": "Reconstruction in progress since 2023-06. Expected finish at the end of 2024.",
                         "stage": "darbai",
                         "lanes": "22"
                     },
@@ -824,8 +831,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 72,50-79,00",
-                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Rekonstravimo darbai baigti 2023-10.</p>",
-                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction works finished 2023-10.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2023-10.",
+                        "description_en": "Reconstruction works finished 2023-10.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -838,8 +845,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 79,00-85,00",
-                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Rekonstravimo darbai baigti 2023-12.</p>",
-                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction works finished 2023-12.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2023-12.",
+                        "description_en": "Reconstruction works finished 2023-12.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -852,8 +859,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 85,00-97,06",
-                        "description_lt": "<h4>Marijampolė-LT/PL</h4><p>Vyksta rekonstrukcija nuo 2024-06. Numatyta baigti 2025 pabaigoje.</p>",
-                        "description_en": "<h4>Marijampolė-LT/PL</h4><p>Reconstruction in progress since 2024-06. Expected finish at the end of 2025.</p>",
+                        "description_lt": "Vyksta rekonstrukcija nuo 2024-06. Numatyta baigti 2025 pabaigoje.",
+                        "description_en": "Reconstruction in progress since 2024-06. Expected finish at the end of 2025.",
                         "stage": "darbai",
                         "lanes": "22"
                     },
@@ -872,8 +879,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A2 9,276-10,238",
-                        "description_lt": "<p>Numatyta įrengti požeminį pravažiavimą ir panaikinti esamą apsisukimą.</p>",
-                        "description_en": "<p>Installation of an underground passage and removal of an u-turn.</p>",
+                        "title2": "Vilnius-Panevėžys",
+                        "description_lt": "Numatyta įrengti požeminį pravažiavimą ir panaikinti esamą apsisukimą.",
+                        "description_en": "Installation of an underground passage and removal of an u-turn.",
                         "stage": "konkursas",
                         "lanes": "33"
                     },
@@ -886,8 +894,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A2 9,276-10,238",
-                        "description_lt": "<p>Numatyta įrengti požeminį pravažiavimą ir panaikinti esamą apsisukimą.</p>",
-                        "description_en": "<p>Installation of an underground passage and removal of an u-turn.</p>",
+                        "title2": "Vilnius-Panevėžys",
+                        "description_lt": "Numatyta įrengti požeminį pravažiavimą ir panaikinti esamą apsisukimą.",
+                        "description_en": "Installation of an underground passage and removal of an u-turn.",
                         "stage": "konkursas",
                         "lanes": "22"
                     },
@@ -924,8 +933,8 @@
                     "__comment": "A1 Vilnius-Kaunas atkarpos: Vievis-Kaunas | Grigiškės-Vievis",
                     "properties": {
                         "title": "A1 Vilnius-Kaunas",
-                        "description_lt": "<p>2022 metais keliui suteiktas automagistralės statusas vietoje greitkelio.</p>",
-                        "description_en": "<p>In 2022 road was upgraded to motorway from expressway.</p>",
+                        "description_lt": "2022 metais keliui suteiktas automagistralės statusas vietoje greitkelio.",
+                        "description_en": "In 2022 road was upgraded to motorway from expressway.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
@@ -972,8 +981,8 @@
                     "__comment": "A1 95,50-99,29",
                     "properties": {
                         "title": "A1 Islandijos pl.",
-                        "description_lt": "<p>2014 metais parengtas specialusis planas numatė 2x3 kelio platinimą. Tačiau kelias bus rekonstruojamas į 4x2 atskiriant vietinį ir tranzitinį srautus.</p>",
-                        "description_en": "<p>Special plan, prepared in 2014, proposed road expansion to 2x3. Nevertheless the road will be reconstructed to 4x2 to separate local and transit traffic.</p>",
+                        "description_lt": "2014 metais parengtas specialusis planas numatė 2x3 kelio platinimą. Tačiau kelias bus rekonstruojamas į 4x2 atskiriant vietinį ir tranzitinį srautus.",
+                        "description_en": "Special plan, prepared in 2014, proposed road expansion to 2x3. Nevertheless the road will be reconstructed to 4x2 to separate local and transit traffic.",
                         "stage": "priesprojektinis",
                         "lanes": "33"
                     },
@@ -986,8 +995,9 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A1 99,29-100,47",
-                        "description_lt": "<h4>Islandijos pl.</h4><p>Kelias platinamas iš 2x2 į 4x2 – pastatytas naujas 2 juostų tiltas, šiuo metu rekonstruojamas seniausias (vidurinis) tiltas iš 2 į 2x2 juostas.</p>",
-                        "description_en": "<h4>Islandijos pl.</h4><p>Road is being widened from 2x2 to 4x2 – new 2 lane bridge has been built, currently the oldest (middle) bridge is being reconstructed from 2 to 2x2 lanes.</p>",
+                        "title2": "Islandijos pl.",
+                        "description_lt": "Kelias platinamas iš 2x2 į 4x2 – pastatytas naujas 2 juostų tiltas, šiuo metu rekonstruojamas seniausias (vidurinis) tiltas iš 2 į 2x2 juostas.",
+                        "description_en": "Road is being widened from 2x2 to 4x2 – new 2 lane bridge has been built, currently the oldest (middle) bridge is being reconstructed from 2 to 2x2 lanes.",
                         "stage": "darbai",
                         "lanes": "33"
                     },
@@ -1000,8 +1010,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A1 Islandijos pl.",
-                        "description_lt": "<p>Kelias išplatintas iš 2x2 į 4x2 atskiriant vietinį ir tranzitinį srautus.</p>",
-                        "description_en": "<p>Road has been widened from 2x2 to 4x2 to separate local and transit traffic.</p>",
+                        "description_lt": "Kelias išplatintas iš 2x2 į 4x2 atskiriant vietinį ir tranzitinį srautus.",
+                        "description_en": "Road has been widened from 2x2 to 4x2 to separate local and transit traffic.",
                         "stage": "veikiantis",
                         "lanes": "33"
                     },
@@ -1026,8 +1036,8 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A1 Kaunas-Klaipėda",
-                        "description_lt": "<p>Rekonstravimo darbai baigti 2022-06 – įrengti apjungiamieji keliai, skirtingų lygių sankryža ir panaikintas apsisukimas.</p>",
-                        "description_en": "<p>Reconstruction works finished in 2022-06 – new access roads, junction and removed an u-turn.</p>",
+                        "description_lt": "Rekonstravimo darbai baigti 2022-06 – įrengti apjungiamieji keliai, skirtingų lygių sankryža ir panaikintas apsisukimas.",
+                        "description_en": "Reconstruction works finished in 2022-06 – new access roads, junction and removed an u-turn.",
                         "stage": "veikiantis",
                         "lanes": "22"
                     },
