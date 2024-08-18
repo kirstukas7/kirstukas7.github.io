@@ -12,9 +12,15 @@ lang: en
         else
             desc_text += "<h3>"+data.title+"</h3>";
 
+        if (data.title2 !== undefined)
+            desc_text += "<h4>"+data.title2+"</h4>";
+        
         if (data.description_en !== undefined)
             desc_text += data.description_en;
 
+        if (data.cvpp !== undefined)
+            desc_text += "<p><a href=\""+data.cvpp+"\" target=\"_blank\">Tender notices</a></p>";
+
         layer.bindPopup(desc_text);
-        };
+    };
 </script>

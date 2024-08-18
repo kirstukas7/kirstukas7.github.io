@@ -8,9 +8,15 @@ lang: lt
     function onEachFeature (data, layer) {
         var desc_text = "<h3>"+data.title+"</h3>";
 
+        if (data.title2 !== undefined)
+            desc_text += "<h4>"+data.title2+"</h4>";
+
         if (data.description_lt !== undefined)
             desc_text += data.description_lt;
 
+        if (data.cvpp !== undefined)
+            desc_text += "<p><a href=\'"+data.cvpp+"\' target=\'_blank\'>Pirkimo skelbimai</a></p>";
+
         layer.bindPopup(desc_text);
-        };
+    };
 </script>
