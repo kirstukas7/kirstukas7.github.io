@@ -310,6 +310,236 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A14",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 10,66-16,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 10,66-16,00 nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.272327124985111,54.774336553017697],[25.273036264149685,54.776059311452563],[25.273459314599254,54.777065436069833],[25.275081035914454,54.782482976021456],[25.275431758447432,54.790786709652934],[25.27548748114781,54.795142683792214],[25.275013500400529,54.799917951568617],[25.272170729056558,54.811959542941949],[25.273245559499813,54.819088471595627]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 10,66-16,00 sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.274526867759107,54.780006998419353],[25.273585027860008,54.805458478690873]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 16,00-21,50",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 16,00-21,50 nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.275059781616658,54.82620437905954],[25.283482945132292,54.844223481947715]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 16,00-21,50 sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.276558109864151,54.832116004628595],[25.30254665402791,54.864866245375751]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 21,50-28,40",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 21,50-28,40 nuovazos",
+                            "properties": {
+                                "stage": "konkursas",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.307890464984069,54.873281453841997],[25.313966607692098,54.886353635877974],[25.317795956663062,54.894790250648938],[25.321962543744366,54.904007400313155],[25.324013614189969,54.908031743056675]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 21,50-28,40 sankryzos",
+                            "properties": {
+                                "stage": "konkursas",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.31094123783588,54.879832818117386],[25.32061359209818,54.901083002315225],[25.334336188850052,54.926267871573394]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 28,400-39,207",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 28,400-39,207 nuovazos",
+                            "properties": {
+                                "stage": "konkursas",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.3355247047852,54.928373365320937],[25.345400078288808,54.950766684668586],[25.347791898761248,54.958936071773017],[25.348389627181859,54.965692582529726],[25.354793022603211,54.989642357492222]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 28,400-39,207 sankryzos",
+                            "properties": {
+                                "stage": "konkursas",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.351638274845499,55.000747653305332]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 39,207-51,550",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 39,207-51,550 nuovazos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.347213852835587,55.029112724437844],[25.351375174062813,55.046473383548665],[25.35543921782925,55.091791819262461],[25.377780988801561,55.11170456705554]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 39,207-51,550 sankryzos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.344924365171988,55.023858200722422],[25.349401855214932,55.063620735982816]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 51,55-59,00",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 51,55-59,00 nuovazos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.406500652610816,55.146010131011415],[25.420851608745075,55.175649043371529],[25.421475173444218,55.18005833950825]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 51,55-59,00 sankryzos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.392219681132655,55.130162429896203],[25.393757286768082,55.132281402485418]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A14 59,000-64,332",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 59,000-64,332 nuovazos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "nuov",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.436157629391417,55.212027514224289],[25.437867876742331,55.218582155663213]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A14 59,000-64,332 sankryzos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "xsan",
+                                "lanes": "21"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[25.429225057420346,55.201296650858104],[25.438906867287571,55.220893728548262]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A13",
             "features": [
                 {

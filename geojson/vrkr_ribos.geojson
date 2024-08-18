@@ -21,6 +21,84 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A14",
+            "features": [
+                {
+                    "type": "Feature",
+                    "__comment": "A14 28,40",
+                    "properties": {
+                        "lanes": "21",
+                        "angle": 18
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.334778358192555,54.927064732237966]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A14 39,207",
+                    "properties": {
+                        "lanes": "21",
+                        "angle": 7
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.344451145961784,55.022041212106281]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A14 51,55",
+                    "properties": {
+                        "lanes": "21",
+                        "angle": 22.5
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.389806455296213,55.126807273679191]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A14 59,00",
+                    "properties": {
+                        "lanes": "21",
+                        "angle": 8.6
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.42292070086339,55.189746917753403]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A14 79,51",
+                    "properties": {
+                        "lanes": "11",
+                        "angle": 0
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.51434877410491,55.36028094378289]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "__comment": "A14 93,726",
+                    "properties": {
+                        "lanes": "11",
+                        "angle": 175
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [25.579934124662902,55.478935979550101]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A10",
             "features": [
                 {
