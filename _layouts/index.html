@@ -7,17 +7,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ index.title.page }}</title>
+    <title>{{ page.title }}</title>
     <style type="text/css">
         body { text-align: center}
     </style>
 </head>
 <body>
-    <h1>{{ index.title.links }}</h1>
+    <h1>{{ index.header }}</h1>
     <p><a href="{{ sites.kspb }}">{{ index.kspb }}</a></p>
     <p><a href="{{ sites.vrspb }}">{{ index.vrspb }}</a></p>
     <h3><a href="{{ sites.vrkr }}">{{ index.vrkr }}</a></h3>
     <p><a onclick="return changeLang('')" href="/">{{ index.lang }}</a></p>
+    <script>history.replaceState(null,null,"/");</script>
     {% include kalba.html %}
 </body>
 </html>

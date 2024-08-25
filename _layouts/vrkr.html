@@ -78,12 +78,11 @@ layout: zemelapis
         });
     
     // set view by query (if present)
-    let searchParams = new URLSearchParams(document.location.search).get("location");
+    let searchParams = new URLSearchParams(location.search).get("location");
     if (searchParams !== null) {
         let param = searchParams.split('/');
-        sidebar.disablePanel('legenda');
-        sidebar.disablePanel('dalintis');
-        map._handlers.forEach((handler) => {handler.disable()});
+        history.replaceState(null,null,"{{ site.data.sites.vrkr }}"+location.search);
+        disableInteraction();
         setTimeout(() => {
             try {
                 map.flyTo([param[1], param[2]], param[0], {
@@ -99,13 +98,19 @@ layout: zemelapis
                 showNotification('{{ notify.locate_error }}');
             };
         }, 300);
+    } else history.replaceState(null,null,"{{ site.data.sites.vrkr }}");
+    
+    function disableInteraction() {
+        sidebar.disablePanel('legenda');
+        sidebar.disablePanel('dalintis');
+        map._handlers.forEach((handler) => {handler.disable()});
     };
 
     function enableInteraction() {
         sidebar.enablePanel('legenda');
         sidebar.enablePanel('dalintis');
         map._handlers.forEach((handler) => {handler.enable()});
-    }
+    };
 </script>
 {{ content }}
 <script src="/script/vrkr/vrkr_stiliai.js"></script>

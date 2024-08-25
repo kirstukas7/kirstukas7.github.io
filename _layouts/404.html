@@ -5,13 +5,14 @@
 {% endif %}
 <!DOCTYPE html>
 <head>
-    <title>{{ p404.title.page }}</title>
+    <title>{{ page.title }}</title>
     <style type="text/css">
         body { text-align: center}
     </style>
 </head>
 <body>
-    <h1>{{ p404.title.info }}</h1>
+    <h1>{{ p404.header }}</h1>
     <p><a href="/">{{ p404.back }}</a></p>
+    <script>history.replaceState(null,null,"/404");</script>
 </body>
 </html>
