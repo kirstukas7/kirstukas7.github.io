@@ -4,6 +4,7 @@ title: Valstybinės reikšmės kelių rekonstrukcijos
 permalink: /lt/valstybines-reiksmes-keliu-rekonstrukcijos
 lang: lt
 ---
+{% assign popup = site.data.vrkr.lt.popup %}
 <script>
     function onEachFeature (data, layer) {
         var desc_text = "<h3>"+data.title+"</h3>";
@@ -15,7 +16,10 @@ lang: lt
             desc_text += "<p>"+data.description_lt+"</p>";
 
         if (data.cvpp !== undefined)
-            desc_text += "<p><a href=\'"+data.cvpp+"\' target=\'_blank\'>Pirkimo skelbimai</a></p>";
+            desc_text += "<p><a href=\""+data.cvpp+"\" target=\"_blank\">{{ popup.cvpp }}</a></p>";
+
+        if (data.tpd !== undefined)
+            desc_text += "<p><a href=\""+data.tpd+"\" target=\"_blank\">{{ popup.tpd }}</a></p>";
 
         layer.bindPopup(desc_text);
     };

@@ -67,6 +67,7 @@
                         "title_en": "A18 Šiauliai bypass",
                         "description_lt": "2016 metais parengtas specialusis planas, 2023 metais parengtas plano keitimas (atnaujinimas).</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.",
                         "description_en": "Special plan was prepared in 2016, plan change (update) prepared in 2023.</p><p>Plan implementation no earlier than 2030.",
+                        "tpd": "https://tpdr.planuojustatau.lt/map/main.html?tpdId=132051",
                         "stage": "priesprojektinis",
                         "lanes": "11"
                     },
@@ -395,6 +396,7 @@
                         "title2": "Klaipėda-LT/LV",
                         "description_lt": "2017 metais parengtas specialusis planas, kuriuo numatoma įrengti skirtingo lygio sankryžas ir apjungiamuosius kelius.</p><p>Plano įgyvendinimas ne anksčiau kaip 2030.",
                         "description_en": "Special plan was prepared in 2017 which proposes new 2-level junctions and access roads.</p><p>Plan implementation no earlier than 2030.",
+                        "tpd": "https://tpdr.planuojustatau.lt/map/main.html?tpdId=127448",
                         "stage": "priesprojektinis",
                         "lanes": "22"
                     },
@@ -1195,6 +1197,7 @@
                         "title": "A1 Islandijos pl.",
                         "description_lt": "2014 metais parengtas specialusis planas numatė 2x3 kelio platinimą. Tačiau kelias bus rekonstruojamas į 4x2 atskiriant vietinį ir tranzitinį srautus.",
                         "description_en": "Special plan, prepared in 2014, proposed road expansion to 2x3. Nevertheless the road will be reconstructed to 4x2 to separate local and transit traffic.",
+                        "tpd": "https://tpdr.planuojustatau.lt/map/main.html?tpdId=1394",
                         "stage": "priesprojektinis",
                         "lanes": "33"
                     },
