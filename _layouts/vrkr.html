@@ -58,7 +58,7 @@ layout: zemelapis
             title: '{{ sidebar.language.title }}',
             button: () => {
                 changeLang();
-                window.location.href = '{{ site.data.sites.vrkr }}';
+                window.location.href = '{{ site.data.sites.vrkr }}'+location.search;
             },
             position: 'bottom'
         })
