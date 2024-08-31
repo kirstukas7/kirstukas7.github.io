@@ -1,59 +1,56 @@
-// link data
-var linkKeliai = "/geojson/vrkr_keliai.geojson";
-var linkSkiriamosios = "/geojson/vrkr_skiriamosios.geojson";
-var linkRibos = "/geojson/vrkr_ribos.geojson";
-var linkSankryzos = "/geojson/vrkr_sankryzos.geojson";
-
-// create layers
-var layerKeliai = L.geoJson(null, {
-    style: feature => stiliai_keliai(feature.properties),
-    onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
-});
-
+// pane and thickness
 map.createPane('skir');
 map.getPane('skir').style.zIndex = 450;
-var layerSkiriamosios = L.geoJson(null, {
-    style: feature => stiliai_skiriamosios(feature.properties),
-    pane: "skir"
+let mult = 2.5;
+
+// data array and styling
+var layerData = [
+    {
+        link: "/geojson/vrkr_keliai.geojson",
+        layerObj: L.geoJson(null, {
+            style: feature => stiliai(feature.properties, 'keliai'),
+            onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+        })
+    },
+    {
+        link: "/geojson/vrkr_skiriamosios.geojson",
+        layerObj: L.geoJson(null, {
+            style: feature => stiliai(feature.properties, 'skiriamosios'),
+            pane: "skir"
+        })
+    },
+    {
+        link: "/geojson/vrkr_ribos.geojson",
+        layerObj: L.geoJson(null, {
+            pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, 'ribos'))
+        })
+    },
+    {
+        link: "/geojson/vrkr_sankryzos.geojson",
+        layerObj: L.geoJson(null, {
+            pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, 'sankryzos')),
+            onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+        })
+    }
+];
+
+// import data and add to map
+layerData.forEach(layer => {
+    $.getJSON(layer.link, jsonObject => {layer.layerObj.addData(jsonObject)});
+    layer.layerObj.addTo(map);
 });
-
-var layerRibos = L.geoJson(null, {
-    pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_ribos(feature.properties))
-});
-
-var layerSankryzos = L.geoJson(null, {
-    pointToLayer: (feature, latlng) => L.marker(latlng, stiliai_sankryzos(feature.properties)),
-    onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
-});
-
-// import data
-$.getJSON(linkKeliai, jsonObject => {layerKeliai.addData(jsonObject)});
-$.getJSON(linkSkiriamosios, jsonObject => {layerSkiriamosios.addData(jsonObject)});
-$.getJSON(linkRibos, jsonObject => {layerRibos.addData(jsonObject)});
-$.getJSON(linkSankryzos, jsonObject => {layerSankryzos.addData(jsonObject)});
-
-// add layers to map
-layerKeliai.addTo(map);
-layerSkiriamosios.addTo(map);
-layerRibos.addTo(map);
-layerSankryzos.addTo(map);
 
 // remove layer based on zoom level
 map.on("zoom", () => {
     var zoomlevel = map.getZoom();
-    if (zoomlevel <= 9)
-        if (map.hasLayer(layerSankryzos))
-            map.removeLayer(layerSankryzos);
-    
-    if (zoomlevel <= 8)
-        if (map.hasLayer(layerRibos))
-            map.removeLayer(layerRibos);
-    
-    if (zoomlevel >= 10)
-        if (!map.hasLayer(layerSankryzos))
-            map.addLayer(layerSankryzos);
-    
-    if (zoomlevel >= 9)
-        if (!map.hasLayer(layerRibos))
-            map.addLayer(layerRibos);
+    switch(true) {
+        case zoomlevel <= 9:
+            if (map.hasLayer(layerData[3].layerObj))
+                map.removeLayer(layerData[3].layerObj);
+            break;
+        case zoomlevel >= 10:
+            if (!map.hasLayer(layerData[3].layerObj))
+                map.addLayer(layerData[3].layerObj);
+            break;
+    };
 });
