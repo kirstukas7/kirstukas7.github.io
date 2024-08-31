@@ -684,11 +684,11 @@
                         },
                         {
                             "type": "Feature",
-                            "__comment": "A12 Šiauliai-Bubiai sankryzos1",
+                            "__comment": "A12 Šiauliai-Bubiai sankryzosU",
                             "properties": {
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22u"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -791,7 +791,20 @@
                             },
                             "geometry": {
                                 "type": "MultiPoint",
-                                "coordinates": [[23.214392176609604,55.963369647526847],[23.186007103962879,55.969165896323602],[23.137677578725498,55.97956417654769],[23.105202401462833,55.983598450209463],[23.030719248079979,55.992674481238069]]
+                                "coordinates": [[23.214392176609604,55.963369647526847],[23.186007103962879,55.969165896323602],[23.137677578725498,55.97956417654769],[23.105202401462833,55.983598450209463]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A11 Šiauliai-Kuršėnai sankryzosU",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22u"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.030719248079979,55.992674481238069]]
                             }
                         },
                         {
@@ -802,7 +815,7 @@
                                 "description_en": "Junction type: With u-turns on a main road",
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22u"
                             },
                             "geometry": {
                                 "type": "Point",
@@ -1389,11 +1402,11 @@
                         },
                         {
                             "type": "Feature",
-                            "__comment": "A2 Vilnius-Panevėžys sankryzos1",
+                            "__comment": "A2 Vilnius-Panevėžys sankryzosU",
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22H"
+                                "lanes": "22uH"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1450,11 +1463,11 @@
                         },
                         {
                             "type": "Feature",
-                            "__comment": "A2 Panevėžys sankryzos1",
+                            "__comment": "A2 Panevėžys sankryzosU",
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22u"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1715,11 +1728,11 @@
                         },
                         {
                             "type": "Feature",
-                            "__comment": "A1 Kaunas-Klaipėda sankryzos1",
+                            "__comment": "A1 Kaunas-Klaipėda sankryzosU",
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22H"
+                                "lanes": "22uH"
                             },
                             "geometry":{
                                 "type": "MultiPoint",

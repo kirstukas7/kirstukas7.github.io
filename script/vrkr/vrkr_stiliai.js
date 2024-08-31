@@ -54,7 +54,7 @@ function stiliai(data, type) {
             switch(data.lanes) {
                 case "11": width = 4; break;
                 case "21": width = 5; break;
-                case "22": case "22G": case "22H": width = 7; break;
+                case "22": case "22G": case "22H": case "22u": case "22uH": width = 7; break;
                 case "33": case "33G": case "33H": width = 9; break;
             };
             switch(data.type) {
