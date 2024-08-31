@@ -1042,6 +1042,7 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 72,50-79,00",
+                        "title2": "Marijampolė-LT/PL",
                         "description_lt": "Rekonstravimo darbai baigti 2023-10.",
                         "description_en": "Reconstruction works finished 2023-10.",
                         "stage": "veikiantis",
@@ -1056,6 +1057,7 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 79,00-85,00",
+                        "title2": "Marijampolė-LT/PL",
                         "description_lt": "Rekonstravimo darbai baigti 2023-12.",
                         "description_en": "Reconstruction works finished 2023-12.",
                         "stage": "veikiantis",
@@ -1070,6 +1072,7 @@
                     "type": "Feature",
                     "properties": {
                         "title": "A5 85,00-97,06",
+                        "title2": "Marijampolė-LT/PL",
                         "description_lt": "Vyksta rekonstrukcija nuo 2024-06. Numatyta baigti 2025 pabaigoje.",
                         "description_en": "Reconstruction in progress since 2024-06. Expected finish at the end of 2025.",
                         "cvpp": "https://pirkimai.eviesiejipirkimai.lt/ctm/Supplier/PublicPurchase/738599",
