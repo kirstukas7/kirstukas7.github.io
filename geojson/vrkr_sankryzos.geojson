@@ -688,7 +688,8 @@
                             "properties": {
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22u"
+                                "lanes": "22",
+                                "state": "u"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -800,7 +801,8 @@
                             "properties": {
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22u"
+                                "lanes": "22",
+                                "state": "u"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -815,7 +817,8 @@
                                 "description_en": "Junction type: With u-turns on a main road",
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22u"
+                                "lanes": "22",
+                                "state": "u"
                             },
                             "geometry": {
                                 "type": "Point",
@@ -919,7 +922,8 @@
                             "properties":{
                                 "stage": "priesprojektine",
                                 "type": "sankr",
-                                "lanes": "22G"
+                                "lanes": "22",
+                                "state": "G"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1008,7 +1012,8 @@
                             "properties": {
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22G"
+                                "lanes": "22",
+                                "state": "G"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -1081,7 +1086,8 @@
                             "properties": {
                                 "stage": "priesprojektine",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -1154,7 +1160,8 @@
                             "properties":{
                                 "stage": "projektuojama",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1167,7 +1174,8 @@
                             "properties":{
                                 "stage": "projektuojama",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1186,7 +1194,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1205,7 +1214,8 @@
                             "properties":{
                                 "stage": "darbai",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1218,7 +1228,8 @@
                             "properties":{
                                 "stage": "darbai",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1234,7 +1245,8 @@
                                 "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "darbai",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1253,7 +1265,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1272,7 +1285,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1285,7 +1299,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1304,7 +1319,8 @@
                             "properties":{
                                 "stage": "darbai",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1317,7 +1333,8 @@
                             "properties":{
                                 "stage": "darbai",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1393,7 +1410,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1406,7 +1424,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22uH"
+                                "lanes": "22",
+                                "state": "uH"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1419,7 +1438,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1435,7 +1455,8 @@
                                 "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1467,7 +1488,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22u"
+                                "lanes": "22",
+                                "state": "u"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1562,7 +1584,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1575,7 +1598,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1687,7 +1711,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1700,7 +1725,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1719,7 +1745,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1732,7 +1759,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22uH"
+                                "lanes": "22",
+                                "state": "uH"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1745,7 +1773,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1758,7 +1787,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "state": "u"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1774,7 +1804,8 @@
                                 "description_en": "Junction type: Trumpet",
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1790,7 +1821,8 @@
                                 "description_en": "Junction type: Partial cloverleaf",
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22H"
+                                "lanes": "22",
+                                "state": "H"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1809,7 +1841,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "nuov",
-                                "lanes": "22G"
+                                "lanes": "22",
+                                "state": "G"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -1822,7 +1855,8 @@
                             "properties":{
                                 "stage": "veikianti",
                                 "type": "sankr",
-                                "lanes": "22G"
+                                "lanes": "22",
+                                "state": "G"
                             },
                             "geometry":{
                                 "type": "MultiPoint",

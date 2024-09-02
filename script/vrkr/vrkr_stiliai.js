@@ -54,16 +54,18 @@ function stiliai(data, type) {
             switch(data.lanes) {
                 case "11": width = 4; break;
                 case "21": width = 5; break;
-                case "22": case "22G": case "22H": case "22u": case "22uH": width = 7; break;
-                case "33": case "33G": case "33H": width = 9; break;
+                case "22": width = 7; break;
+                case "33": width = 9; break;
             };
             switch(data.type) {
                 case "nuov": zIndexOffset = 20; break;
                 case "xsan": zIndexOffset = 40; break;
                 case "sankr": zIndexOffset = 60; break;
             };
+            if (data.state === undefined)
+                data.state = "";
             var icon = L.icon({
-                iconUrl: "/icons/"+data.type+"/"+data.stage+"_"+data.type+"_"+data.lanes+".svg",
+                iconUrl: "/icons/"+data.type+"/"+data.stage+"_"+data.type+"_"+data.lanes+data.state+".svg",
                 iconSize: [width*mult, width*mult]
             });
             return {icon: icon, keyboard: false, zIndexOffset: zIndexOffset, interactive: interactive};
