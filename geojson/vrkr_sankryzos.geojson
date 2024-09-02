@@ -1100,6 +1100,205 @@
         },
         {
             "type": "FeatureCollection",
+            "__comment": "A6",
+            "features": [
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 Kaunas-Karmėlava",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Kaunas-Karmėlava nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[23.992174001325722,54.937325767021399],[24.012336915692973,54.946428797587956],[24.016812063662933,54.94844036724848],[24.041716572975126,54.959701353624681]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Kaunas-Karmėlava sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.030073113296876,54.954429412690935],[24.033599919135032,54.956042376146101]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Kaunas-Karmėlava sankryzos2",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.005832368809173,54.94348916352493]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 Karmėlava",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.083625490117413,54.977715983097902]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.08181027374826,54.977259759894764]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava sankryzosU",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22",
+                                "state": "u"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.05198969411461,54.964283396472396],[24.093145033903891,54.979018760028495]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 Karmėlavos aplinkkelis",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "properties": {
+                                "stage": "priesprojektine",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.047863024407537,54.962463181728431],[24.072150040195933,54.969385714918559]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 Karmėlava-Jonava",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava-Jonava nuovazos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "nuov",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.140374657579397,55.003752331226082],[24.150609718019595,55.00825107527703],[24.166616522640549,55.015295396219663],[24.177672171742191,55.020147971286285],[24.196169162523443,55.028256914400764],[24.200488862225079,55.030152602000037],[24.204922713699627,55.032102344760133],[24.207269567782951,55.033132807262589],[24.215198253652037,55.036612466144987]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava-Jonava sankryzos1",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.123560448643854,54.996353273315769],[24.157978846634116,55.01149473219774],[24.21140730075151,55.034949068130558]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Karmėlava-Jonava sankryzosU",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "xsan",
+                                "lanes": "22",
+                                "state": "u"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.233093644309349,55.044461771760957],[24.2446875046674,55.049550987755723]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 Jonavos aplinkkelis",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 Jonavos aplinkkelis sankryzos",
+                            "properties": {
+                                "stage": "projektuojama",
+                                "type": "sankr",
+                                "lanes": "22"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.251734199941293,55.052593917482518]]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "FeatureCollection",
+                    "__comment": "A6 esamas",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "__comment": "A6 esamos sankryzos",
+                            "properties": {
+                                "stage": "veikianti",
+                                "type": "sankr",
+                                "lanes": "11"
+                            },
+                            "geometry": {
+                                "type": "MultiPoint",
+                                "coordinates": [[24.889131355307217,55.333823251810792],[26.246524177168393,55.723951200552477]]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FeatureCollection",
             "__comment": "A5",
             "features": [
                 {
