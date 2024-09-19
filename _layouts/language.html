@@ -22,10 +22,7 @@
         document.title = "Redirecting...";
 
         const queryString = location.search;
-        if (language == 'lt')
-            location.href = "/lt"+"{{ page.permalink }}"+queryString;
-        else if (language == 'en')
-            location.href = "/en"+"{{ page.permalink }}"+queryString;
+        location.href = "/"+language+"{{ page.permalink }}"+queryString;
     </script>
 </body>
 </html>

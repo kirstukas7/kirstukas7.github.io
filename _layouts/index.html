@@ -1,11 +1,13 @@
 {% if page.lang == "lt" %}
     {% assign index = site.data.index.lt %}
+    {% assign changelang = 'en/' %}
 {% elsif page.lang == "en" %}
     {% assign index = site.data.index.en %}
+    {% assign changelang = 'lt/' %}
 {% endif %}
 {% assign sites = site.data.sites %}
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
 <head>
     <meta name="google-site-verification" content="JOojpBIGKP5zI48dq0oIU5BeYbZTNTeUTA2Wpet0nMg"/>
     <title>{{ page.title }}</title>
@@ -15,11 +17,11 @@
 </head>
 <body>
     <h1>{{ index.header }}</h1>
-    <p><a href="{{ sites.kspb }}">{{ index.kspb }}</a></p>
-    <p><a href="{{ sites.vrspb }}">{{ index.vrspb }}</a></p>
+    <p><a href="/{{ sites.kspb }}">{{ index.kspb }}</a></p>
+    <p><a href="/{{ sites.vrspb }}">{{ index.vrspb }}</a></p>
     <h3><a href="{{ sites.vrkr }}">{{ index.vrkr }}</a></h3>
-    <p><a onclick="return changeLang('')" href="/">{{ index.lang }}</a></p>
-    <script>history.replaceState(null,null,"/");</script>
+    <p><a onclick="changeLang('');
+        return true" href="/{{ changelang }}">{{ index.lang }}</a></p>
     {% include kalba.html %}
 </body>
 </html>

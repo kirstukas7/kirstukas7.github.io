@@ -4,6 +4,25 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
+		<loc>https://keliuprojektai.eu/lt/</loc>
+		<xhtml:link
+					rel="alternate"
+					hreflang="lt"
+					href="https://keliuprojektai.eu/lt/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="en-lt"
+					href="https://keliuprojektai.eu/lt/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="en"
+					href="https://keliuprojektai.eu/en/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="x-default"
+					href="https://keliuprojektai.eu/en/"/>
+	</url>
+	<url>
 		<loc>https://keliuprojektai.eu/en/</loc>
 		<xhtml:link
 					rel="alternate"
@@ -11,15 +30,12 @@
 					href="https://keliuprojektai.eu/lt/"/>
 		<xhtml:link
 					rel="alternate"
-					hreflang="x-default"
-					href="https://keliuprojektai.eu/en/"/>
-	</url>
-	<url>
-		<loc>https://keliuprojektai.eu/lt/</loc>
+					hreflang="en-lt"
+					href="https://keliuprojektai.eu/lt/"/>
 		<xhtml:link
 					rel="alternate"
-					hreflang="lt"
-					href="https://keliuprojektai.eu/lt/"/>
+					hreflang="en"
+					href="https://keliuprojektai.eu/en/"/>
 		<xhtml:link
 					rel="alternate"
 					hreflang="x-default"
@@ -29,6 +45,25 @@
 		<loc>https://keliuprojektai.eu/kauno-susisiekimo-projektu-breziniai/</loc>
 	</url>
 	<url>
+		<loc>https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/</loc>
+		<xhtml:link
+					rel="alternate"
+					hreflang="lt"
+					href="https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="en-lt"
+					href="https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="en"
+					href="https://keliuprojektai.eu/en/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
+		<xhtml:link
+					rel="alternate"
+					hreflang="x-default"
+					href="https://keliuprojektai.eu/en/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
+	</url>
+	<url>
 		<loc>https://keliuprojektai.eu/en/valstybines-reiksmes-keliu-rekonstrukcijos/</loc>
 		<xhtml:link
 					rel="alternate"
@@ -36,15 +71,12 @@
 					href="https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
 		<xhtml:link
 					rel="alternate"
-					hreflang="x-default"
-					href="https://keliuprojektai.eu/en/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
-	</url>
-	<url>
-		<loc>https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/</loc>
+					hreflang="en-lt"
+					href="https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
 		<xhtml:link
 					rel="alternate"
-					hreflang="lt"
-					href="https://keliuprojektai.eu/lt/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
+					hreflang="en"
+					href="https://keliuprojektai.eu/en/valstybines-reiksmes-keliu-rekonstrukcijos/"/>
 		<xhtml:link
 					rel="alternate"
 					hreflang="x-default"

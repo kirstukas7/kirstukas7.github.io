@@ -1,5 +1,16 @@
+---
+---
+{% if page.lang == "lt" %}
+    {% assign sidebar = site.data.vrkr.lt.sidebar %}
+    {% assign notify = site.data.notifications.lt %}
+    {% assign changelang = 'en/' %}
+{% elsif page.lang == "en" %}
+    {% assign sidebar = site.data.vrkr.en.sidebar %}
+    {% assign notify = site.data.notifications.en %}
+    {% assign changelang = 'lt/' %}
+{% endif %}
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
 <head>
     <title>{{ page.title }}</title>
 
@@ -38,7 +49,117 @@
 </head>
 <body>
     <div id="map"></div>
+    <script>
+        // leaflet map setup
+        var map = L.map('map', {
+            minZoom: 9,
+            maxZoom: 15,
+            zoomSnap: 0.5,
+            zoomDelta: 0.5,
+            maxBounds: [
+                [56.777, 20.071],
+                [53.526, 27.853]
+            ]
+        }).setView([54.89804, 23.90433], 10);
+        
+        // create base layers
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { // https://leafletjs.com/reference#tilelayer
+            attribution: '&copy <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+        }).addTo(map);
+
+        // create scale
+        var scale = L.control.scale().addTo(map);
+        
+        // create sidebar
+        var sidebar = L.control.sidebar({
+            autopan: true
+        }).addTo(map);
+        
+        // add panels to sidebars
+        sidebar
+            .addPanel({
+                id: 'legenda',
+                tab: '<i class="fa-solid fa-road"></i>',
+                title: '{{ sidebar.legend.title }}',
+                pane: `{{ sidebar.legend.pane }}`
+            })
+            /*.addPanel({
+                id: 'naujienos',
+                tab: '<i class="fa-solid fa-newspaper"></i>',
+                title: '{{ sidebar.news.title }}',
+                pane: '{{ sidebar.news.pane }}'
+            })*/
+            .addPanel({
+                id: 'dalintis',
+                tab: '<i class="fa-solid fa-share-from-square"></i>',
+                title: '{{ sidebar.share.title }}',
+                button: () => {
+                    shareLocation();
+                    showNotification('{{ notify.shared}}');
+                }
+            })
+            .addPanel({
+                id: 'kalba',
+                tab: '<i class="{{ sidebar.language.icon }}"></i>',
+                title: '{{ sidebar.language.title }}',
+                button: () => {
+                    changeLang();
+                    window.location.replace("/{{ changelang }}{{ site.data.sites.vrkr }}"+location.search);
+                },
+                position: 'bottom'
+            })
+            .addPanel({
+                id: 'klaida',
+                tab: '<i class="fa-solid fa-triangle-exclamation"></i>',
+                title: '{{ sidebar.error.title }}',
+                button: 'https://github.com/kirstukas7/kirstukas7.github.io/issues',
+                position: 'bottom'
+            })
+            .addPanel({
+                id: 'pagrindinis',
+                tab: '<i class="fa fa-house"></i>',
+                title: '{{ sidebar.home.title }}',
+                button: '/{{ page.lang }}',
+                position: 'bottom'
+            });
+        
+        // set view by query (if present)
+        let searchParams = new URLSearchParams(location.search).get("location");
+        if (searchParams !== null) {
+            let param = searchParams.split('/');
+            disableInteraction();
+            setTimeout(() => {
+                try {
+                    map.flyTo([param[1], param[2]], param[0], {
+                        animate: true,
+                        duration: 2
+                    });
+                    setTimeout(() => {
+                        map.setZoom(param[0]);
+                        enableInteraction();
+                    }, 2100);
+                } catch {
+                    enableInteraction();
+                    showNotification('{{ notify.locate_error }}');
+                };
+            }, 300);
+        };
+        
+        function disableInteraction() {
+            sidebar.disablePanel('legenda');
+            sidebar.disablePanel('dalintis');
+            map._handlers.forEach((handler) => {handler.disable()});
+        };
+
+        function enableInteraction() {
+            sidebar.enablePanel('legenda');
+            sidebar.enablePanel('dalintis');
+            map._handlers.forEach((handler) => {handler.enable()});
+        };
+    </script>
     {{ content }}
+    <script src="/script/vrkr/vrkr_stiliai.js"></script>
+    <script src="/script/vrkr/vrkr_data.js"></script>
     {% include notification.html %}
     {% include share.html %}
     {% include kalba.html %}
