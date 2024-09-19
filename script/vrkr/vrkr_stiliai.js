@@ -1,4 +1,4 @@
-function stiliai(data, type) {
+function stiliai(data, type, mult) {
     var color, width, lineCap = 'butt', icon, zIndexOffset, interactive = false;
 
     switch (type) {
@@ -35,7 +35,7 @@ function stiliai(data, type) {
         case 'ribos':
             width = 6; 
             switch(data.lanes) {
-                case "11": width = 3; break;
+                case "11": data.lanes = "21";
                 case "21": width = 4; break;
                 case "22": width = 6; break;
                 case "33": width = 8; break;
