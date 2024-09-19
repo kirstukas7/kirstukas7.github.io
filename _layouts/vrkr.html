@@ -10,9 +10,11 @@ layout: zemelapis
 {% endif %}
 <script>
     // leaflet map setup
-    let map = L.map('map', {
+    var map = L.map('map', {
         minZoom: 9,
         maxZoom: 15,
+        zoomSnap: 0.5,
+        zoomDelta: 0.5,
         maxBounds: [
             [56.777, 20.071],
             [53.526, 27.853]
