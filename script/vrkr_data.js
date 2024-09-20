@@ -45,7 +45,6 @@ var layerMinimal = L.layerGroup([importKeliai(1.8), importSkiriamosios(1.8), imp
 // remove layer based on zoom level
 map.on("zoom", () => {
     var zoomlevel = map.getZoom();
-    console.log(zoomlevel);
     switch(true) {
         case zoomlevel <= 10:
             map.removeLayer(layerRegular);
