@@ -6,8 +6,8 @@
         var lat = coord[0].split('('); lat = lat[1].substr(0,7);
         var lng = coord[1].split(')'); lng = lng[0].substr(0,7);
 
-        let baseLink = location.href.split('?');
-        let shareLink = baseLink[0]+"?location="+zoom+"/"+lat+"/"+lng;
+        let baseLink = location.href.split('/');
+        let shareLink = baseLink[0]+"//"+baseLink[2]+"/"+baseLink[4]+"/?location="+zoom+"/"+lat+"/"+lng;
         history.pushState(null,null,shareLink);
         navigator.clipboard.writeText(shareLink);
     };
