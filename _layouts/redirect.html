@@ -1,0 +1,12 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        const queryString = location.search;
+        window.location.replace("{{ page.redirect }}"+queryString);
+    </script>
+</head>
+</html>

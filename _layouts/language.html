@@ -3,9 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Setting language...</title>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
-</head>
-<body>
     <script>
         var language = Cookies.get('lang');
 
@@ -17,12 +16,10 @@
                 language = 'en';
 
             Cookies.set('lang', language, { expires: 365 });
-        }
-
-        document.title = "Redirecting...";
-
+        };
+        
         const queryString = location.search;
         location.href = "/"+language+"{{ page.permalink }}"+queryString;
     </script>
-</body>
+</head>
 </html>
