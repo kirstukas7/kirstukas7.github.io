@@ -9,11 +9,13 @@
     {% assign notify = site.data.notifications.en %}
     {% assign changelang = 'lt/' %}
 {% endif %}
+{% assign sites = site.data.sites %}
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
     <title>{{ page.title }}</title>
-
+    <meta name="keywords" content="{{ sites.keywords }}"/>
+    <meta name="author" content="{{ sites.author }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
 
