@@ -2,7 +2,7 @@ sidebar:
   legend:
     title: Legend
     pane: |
-      <p><img src='/icons/legenda.svg' width='100%' height='auto'></p>
+      <p><a href='/icons/legenda_en.svg' target='_blank'><img src='/icons/legenda_en.svg' width='100%' height='auto'></a></p>
       <p>Explanations:
         <ul>
           <li>Partial junction – singular exits/entrances, only on one side or on both sides without the possibility to cross to the other side (or the crossing is far away).</li>
