@@ -1166,10 +1166,9 @@
                     "properties": {
                         "title": "A5 56,83-72,50",
                         "title2": "Marijampolė-LT/PL",
-                        "description_lt": "Vyksta rekonstrukcija nuo 2023-06. Numatyta baigti 2024 pabaigoje.",
-                        "description_en": "Reconstruction in progress since 2023-06. Expected finish at the end of 2024.",
-                        "cvpp": "https://cvpp.eviesiejipirkimai.lt/Notice/Details/2023-606421",
-                        "stage": "darbai",
+                        "description_lt": "Rekonstravimo darbai baigti 2024-10.",
+                        "description_en": "Reconstruction works finished 2024-10.",
+                        "stage": "veikiantis",
                         "lanes": "22"
                     },
                     "geometry": {

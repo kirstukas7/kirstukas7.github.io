@@ -1411,7 +1411,7 @@
                             "type": "Feature",
                             "__comment": "A5 56,83-72,50 nuovazos",
                             "properties":{
-                                "stage": "darbai",
+                                "stage": "veikianti",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1425,7 +1425,7 @@
                             "type": "Feature",
                             "__comment": "A5 56,83-72,50 sankryzos",
                             "properties":{
-                                "stage": "darbai",
+                                "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1442,7 +1442,7 @@
                                 "title": "A5/A7",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "darbai",
+                                "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
