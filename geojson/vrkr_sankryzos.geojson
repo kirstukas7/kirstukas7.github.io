@@ -1405,34 +1405,34 @@
                 },
                 {
                     "type": "FeatureCollection",
-                    "__comment": "A5 56,83-72,50",
+                    "__comment": "A5 Marijampolė-LT/PL",
                     "features": [
                         {
                             "type": "Feature",
-                            "__comment": "A5 56,83-72,50 nuovazos",
-                            "properties":{
+                            "__comment": "A5 Marijampolė-LT-PL nuovazos",
+                            "properties": {
                                 "stage": "veikianti",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
                             },
-                            "geometry":{
+                            "geometry": {
                                 "type": "MultiPoint",
-                                "coordinates":[[23.27254727665842,54.55750407397979,0],[23.38905040569341,54.59151224363966,0]]
+                                "coordinates": [[23.38905040569341,54.59151224363966],[23.27254727665842,54.55750407397979],[23.21922054512473,54.47639896986393],[23.20584272611578,54.40890893893472]]
                             }
                         },
                         {
                             "type": "Feature",
-                            "__comment": "A5 56,83-72,50 sankryzos",
-                            "properties":{
+                            "__comment": "A5 Marijampolė-LT-PL sankryzos",
+                            "properties": {
                                 "stage": "veikianti",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
                             },
-                            "geometry":{
+                            "geometry": {
                                 "type": "MultiPoint",
-                                "coordinates":[[23.37838178610547,54.58517920293949,0],[23.2413364772266,54.51924983276711,0]]
+                                "coordinates": [[23.2413364772266,54.51924983276711],[23.37838178610547,54.58517920293949],[23.20345739360926,54.41494891481148]]
                             }
                         },
                         {
@@ -1450,60 +1450,6 @@
                             "geometry":{
                                 "type": "Point",
                                 "coordinates": [23.29723770400776,54.57307251810772,0]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "FeatureCollection",
-                    "__comment": "A5 72,50-79,00",
-                    "features": [
-                        {
-                            "type": "Feature",
-                            "__comment": "A5 72,50-79,00 nuovazos",
-                            "properties":{
-                                "stage": "veikianti",
-                                "type": "nuov",
-                                "lanes": "22",
-                                "state": "H"
-                            },
-                            "geometry":{
-                                "type": "MultiPoint",
-                                "coordinates":[[23.21922054512473,54.47639896986393,0]]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "FeatureCollection",
-                    "__comment": "A5 79,00-85,00",
-                    "features": [
-                        {
-                            "type": "Feature",
-                            "__comment": "A5 79,00-85,00 nuovazos",
-                            "properties":{
-                                "stage": "veikianti",
-                                "type": "nuov",
-                                "lanes": "22",
-                                "state": "H"
-                            },
-                            "geometry":{
-                                "type": "MultiPoint",
-                                "coordinates":[[23.20584272611578,54.40890893893472,0]]
-                            }
-                        },
-                        {
-                            "type": "Feature",
-                            "__comment": "A5 79,00-85,00 sankryzos",
-                            "properties":{
-                                "stage": "veikianti",
-                                "type": "sankr",
-                                "lanes": "22",
-                                "state": "H"
-                            },
-                            "geometry":{
-                                "type": "MultiPoint",
-                                "coordinates":[[23.20345739360926,54.41494891481148,0]]
                             }
                         }
                     ]

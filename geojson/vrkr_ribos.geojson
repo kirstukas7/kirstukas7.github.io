@@ -117,48 +117,6 @@
         },
         {
             "type": "FeatureCollection",
-            "__comment": "A5",
-            "features": [
-                {
-                    "type": "Feature",
-                    "__comment": "A5 72,50",
-                    "properties": {
-                        "lanes": "22",
-                        "angle": 17
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [23.23200808475373,54.50428835836519,0]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "__comment": "A5 79,00",
-                    "properties": {
-                        "lanes": "22",
-                        "angle": 173.5
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [23.20149697680853,54.44957285905669,0]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "__comment": "A5 85,00",
-                    "properties": {
-                        "lanes": "22",
-                        "angle": 8
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [23.21031954501289,54.39635392214461,0]
-                    }
-                }
-            ]
-        },
-        {
-            "type": "FeatureCollection",
             "__comment": "A1",
             "features": [
                 {
