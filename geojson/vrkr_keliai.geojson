@@ -412,9 +412,9 @@
                     "properties": {
                         "title": "A21 Panemunės aplinkkelis",
                         "title_en": "A21 Panemunė bypass",
-                        "description_lt": "Pastatytas 2015 metais.</br>2018 metais nustatyta, jog nenaudojamo kelio sankasa vietomis įdubo apie metrą.</br>2021 metais sutvarkytas.</p><p>Kelias šiuo metu naudojamas pasieniečių.",
-                        "description_en": "Built in 2015.</br>In 2018, it was established that the embankment of the disused road had sunk in places by about a meter.</br>Fixed in 2021.</p><p>Currently the road is used by border guards.",
-                        "stage": "veikiantis",
+                        "description_lt": "Pastatytas 2015 metais.</br>2018 metais nustatyta, jog nenaudojamo kelio sankasa vietomis įdubo apie metrą.</br>2021 metais sutvarkytas.</p><p>Kelias šiuo metu nenaudojamas dėl uždarytos sienos su rusija.",
+                        "description_en": "Built in 2015.</br>In 2018, it was established that the embankment of the disused road had sunk in places by about a meter.</br>Fixed in 2021.</p><p>The road is currently not in use due to the closed border with russia.",
+                        "stage": "",
                         "lanes": "11"
                     },
                     "geometry": {
