@@ -82,18 +82,6 @@
                         "type": "Point",
                         "coordinates": [25.51434877410491,55.36028094378289]
                     }
-                },
-                {
-                    "type": "Feature",
-                    "__comment": "A14 93,726",
-                    "properties": {
-                        "lanes": "11",
-                        "angle": 175
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [25.579934124662902,55.478935979550101]
-                    }
                 }
             ]
         },
