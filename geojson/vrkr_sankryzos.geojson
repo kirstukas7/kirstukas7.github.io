@@ -13,9 +13,10 @@
                             "type": "Feature",
                             "__comment": "KK130 11,60-19,48 nuovazos",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -26,9 +27,10 @@
                             "type": "Feature",
                             "__comment": "KK130 11,60-19,48 sankryzos2",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "sankr",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -39,9 +41,10 @@
                             "type": "Feature",
                             "__comment": "KK130 11,60-19,48 sankryzos1",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -58,9 +61,10 @@
                             "type": "Feature",
                             "__comment": "KK130 19,48-31,10 nuovazos",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -71,9 +75,10 @@
                             "type": "Feature",
                             "__comment": "KK130 19,48-31,10 sankryzos1",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "xsan",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -96,7 +101,7 @@
                             "type": "Feature",
                             "__comment": "A18 0,00-17,08 sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "11"
                             },
@@ -115,9 +120,10 @@
                             "type": "Feature",
                             "__comment": "A18 17,08-24,10 sankryzos",
                             "properties": {
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
-                                "lanes": "11"
+                                "lanes": "11",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -131,9 +137,10 @@
                                 "title": "A12/A18",
                                 "description_lt": "Numatomos sankryžos tipas: Svarmuo (dumbbell) – deimantinė su žiedinėmis sankryžomis",
                                 "description_en": "Proposed junction type: Dumbbell – diamond with roundabouts",
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
-                                "lanes": "11"
+                                "lanes": "11",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "Point",
@@ -156,7 +163,7 @@
                             "type": "Feature",
                             "__comment": "A17 0,00-3,00 sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -175,7 +182,7 @@
                             "type": "Feature",
                             "__comment": "A17 3,00-11,07 nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "21"
                             },
@@ -188,7 +195,7 @@
                             "type": "Feature",
                             "__comment": "A17 3,00-11,07 sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "21"
                             },
@@ -201,7 +208,7 @@
                             "type": "Feature",
                             "__comment": "A17 3,00-11,07 sankryzos2",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "21"
                             },
@@ -216,7 +223,7 @@
                                 "title":"A9/A17",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "21"
                             },
@@ -235,7 +242,7 @@
                             "type": "Feature",
                             "__comment": "A17 11,07-12,93 sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "11"
                             },
@@ -254,7 +261,7 @@
                             "type": "Feature",
                             "__comment": "A17 12,93-22,24 nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "21"
                             },
@@ -267,7 +274,7 @@
                             "type": "Feature",
                             "__comment": "A17 12,93-22,24 sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "21"
                             },
@@ -280,7 +287,7 @@
                             "type": "Feature",
                             "__comment": "A17 12,93-22,24 sankryzos2",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "21"
                             },
@@ -295,7 +302,7 @@
                                 "title":"A10/A17",
                                 "description_lt": "Sankryžos tipas: Turbožiedinė sankryža",
                                 "description_en": "Junction type: Turbo roundabout",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -320,7 +327,7 @@
                             "type": "Feature",
                             "__comment": "A14 10,66-16,00 nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -333,7 +340,7 @@
                             "type": "Feature",
                             "__comment": "A14 10,66-16,00 sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -352,7 +359,7 @@
                             "type": "Feature",
                             "__comment": "A14 16,00-21,50 nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -365,7 +372,7 @@
                             "type": "Feature",
                             "__comment": "A14 16,00-21,50 sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -386,7 +393,8 @@
                             "properties": {
                                 "stage": "konkursas",
                                 "type": "nuov",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -399,7 +407,8 @@
                             "properties": {
                                 "stage": "konkursas",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -418,7 +427,8 @@
                             "properties": {
                                 "stage": "konkursas",
                                 "type": "nuov",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -431,7 +441,8 @@
                             "properties": {
                                 "stage": "konkursas",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -448,9 +459,10 @@
                             "type": "Feature",
                             "__comment": "A14 39,207-51,550 nuovazos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -461,9 +473,10 @@
                             "type": "Feature",
                             "__comment": "A14 39,207-51,550 sankryzos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -480,9 +493,10 @@
                             "type": "Feature",
                             "__comment": "A14 51,55-59,00 nuovazos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -493,9 +507,10 @@
                             "type": "Feature",
                             "__comment": "A14 51,55-59,00 sankryzos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -512,9 +527,10 @@
                             "type": "Feature",
                             "__comment": "A14 59,000-64,332 nuovazos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -525,9 +541,10 @@
                             "type": "Feature",
                             "__comment": "A14 59,000-64,332 sankryzos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -550,7 +567,7 @@
                             "type": "Feature",
                             "__comment": "A13 Klaipėda nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -563,7 +580,7 @@
                             "type": "Feature",
                             "__comment": "A13 Klaipėda sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -582,9 +599,10 @@
                             "type": "Feature",
                             "__comment": "A13 12,10-19,20 nuovazos",
                             "properties": {
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "nuov",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -595,9 +613,10 @@
                             "type": "Feature",
                             "__comment": "A13 12,10-19,20 sankryzos",
                             "properties": {
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -614,7 +633,7 @@
                             "type": "Feature",
                             "__comment": "A13 Palanga sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -629,7 +648,7 @@
                                 "title": "A11/A13",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -654,7 +673,7 @@
                             "type": "Feature",
                             "__comment": "A12 esamas sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "11"
                             },
@@ -673,7 +692,7 @@
                             "type": "Feature",
                             "__comment": "A12 Šiauliai-Bubiai nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -686,7 +705,7 @@
                             "type": "Feature",
                             "__comment": "A12 Šiauliai-Bubiai sankryzosU",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -700,7 +719,7 @@
                             "type": "Feature",
                             "__comment": "A12 Šiauliai-Bubiai sankryzos2",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -716,7 +735,7 @@
                                 "title": "A12/A18",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -741,7 +760,7 @@
                             "type": "Feature",
                             "__comment": "A11 Šiauliai nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "21"
                             },
@@ -754,7 +773,7 @@
                             "type": "Feature",
                             "__comment": "A11 Šiauliai sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "21"
                             },
@@ -773,7 +792,7 @@
                             "type": "Feature",
                             "__comment": "A11 Šiauliai-Kuršėnai nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -786,7 +805,7 @@
                             "type": "Feature",
                             "__comment": "A11 Šiauliai-Kuršėnai sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -799,7 +818,7 @@
                             "type": "Feature",
                             "__comment": "A11 Šiauliai-Kuršėnai sankryzosU",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -815,7 +834,7 @@
                                 "title": "A11/KK203",
                                 "description_lt": "Sankryžos tipas: Su apsisukimais pagrindiniame kelyje",
                                 "description_en": "Junction type: With u-turns on a main road",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -831,7 +850,7 @@
                                 "title": "A11/A18",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -850,7 +869,7 @@
                             "type": "Feature",
                             "__comment": "A11 Kretinga nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -863,7 +882,7 @@
                             "type": "Feature",
                             "__comment": "A11 Kretinga sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -882,7 +901,7 @@
                             "type": "Feature",
                             "__comment": "A11 Palanga nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -895,7 +914,7 @@
                             "type": "Feature",
                             "__comment": "A11 Palanga sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -920,10 +939,11 @@
                             "type": "Feature",
                             "__comment": "A10 9,00-47,30 sankryzos",
                             "properties":{
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
                                 "lanes": "22",
-                                "state": "G"
+                                "state": "G",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -940,9 +960,10 @@
                             "type": "Feature",
                             "__comment": "A10 47,30-66,08 sankryzos",
                             "properties":{
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "xsan",
-                                "lanes": "21"
+                                "lanes": "21",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
@@ -965,7 +986,7 @@
                             "type": "Feature",
                             "__comment": "A9 Radviliškis nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -978,7 +999,7 @@
                             "type": "Feature",
                             "__comment": "A9 Radviliškis sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -991,7 +1012,7 @@
                             "type": "Feature",
                             "__comment": "A9 Radviliškis sankryzos2",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1010,7 +1031,7 @@
                             "type": "Feature",
                             "__comment": "A9 Radviliškis-Šiauliai sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "G"
@@ -1030,7 +1051,7 @@
                             "type": "Feature",
                             "__comment": "A9 Šiauliai nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1043,7 +1064,7 @@
                             "type": "Feature",
                             "__comment": "A9 Šiauliai sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -1059,7 +1080,7 @@
                                 "title": "A9/A18",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1084,10 +1105,11 @@
                             "type": "Feature",
                             "__comment": "A8 7,50-87,80 sankryzos",
                             "properties": {
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
                                 "lanes": "22",
-                                "state": "H"
+                                "state": "H",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -1110,7 +1132,7 @@
                             "type": "Feature",
                             "__comment": "A6 Kaunas-Karmėlava nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1123,7 +1145,7 @@
                             "type": "Feature",
                             "__comment": "A6 Kaunas-Karmėlava sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -1136,7 +1158,7 @@
                             "type": "Feature",
                             "__comment": "A6 Kaunas-Karmėlava sankryzos2",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1155,7 +1177,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1168,7 +1190,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -1181,7 +1203,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava sankryzosU",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -1200,9 +1222,10 @@
                         {
                             "type": "Feature",
                             "properties": {
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -1219,7 +1242,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava-Jonava nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1232,7 +1255,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava-Jonava sankryzos1",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -1245,7 +1268,7 @@
                             "type": "Feature",
                             "__comment": "A6 Karmėlava-Jonava sankryzosU",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -1265,9 +1288,10 @@
                             "type": "Feature",
                             "__comment": "A6 Jonavos aplinkkelis sankryzos",
                             "properties": {
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "sankr",
-                                "lanes": "22"
+                                "lanes": "22",
+                                "visual": "full"
                             },
                             "geometry": {
                                 "type": "MultiPoint",
@@ -1284,7 +1308,7 @@
                             "type": "Feature",
                             "__comment": "A6 esamos sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "11"
                             },
@@ -1309,7 +1333,7 @@
                             "type": "Feature",
                             "__comment": "A5 0,00-16,45 nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1322,7 +1346,7 @@
                             "type": "Feature",
                             "__comment": "A5 0,00-16,45 sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1338,7 +1362,7 @@
                                 "title":"A5/KK130",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1357,28 +1381,73 @@
                             "type": "Feature",
                             "__comment": "A5 16,465-23,32 nuovazos",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "nuov",
                                 "lanes": "22",
-                                "state": "H"
+                                "state": "H",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
-                                "coordinates":[[23.84979286718426,54.80741101125786,0]]
+                                "coordinates":[[23.84979286718426,54.80741101125786]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 16,465-23,32 nuovazos",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "nuov",
+                                "lanes": "22",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.85697,54.80981],[23.85248,54.80831],[23.84910,54.80717],[23.83899,54.80377],[23.82051,54.79756],[23.80973,54.79394],[23.80030,54.79077],[23.79576,54.78926]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 16,465-23,32 sankryzosU",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "xsan",
+                                "lanes": "22",
+                                "state": "u",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.83079,54.80102]]
                             }
                         },
                         {
                             "type": "Feature",
                             "__comment": "A5 16,465-23,32 sankryzos",
                             "properties":{
-                                "stage": "projektuojama",
+                                "stage": "projektuojamas",
                                 "type": "sankr",
                                 "lanes": "22",
-                                "state": "H"
+                                "state": "H",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
-                                "coordinates":[[23.78782611319678,54.7864733114773,0],[23.78003848864135,54.78146398912661,0]]
+                                "coordinates":[[23.78782611319678,54.7864733114773],[23.78003848864135,54.78146398912661]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A5 16,465-23,32 sankryzos",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "sankr",
+                                "lanes": "22",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates":[[23.78782611319678,54.7864733114773],[23.78003848864135,54.78146398912661]]
                             }
                         }
                     ]
@@ -1391,7 +1460,7 @@
                             "type": "Feature",
                             "__comment": "A5 Kaunas-Marijampolė sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1411,7 +1480,7 @@
                             "type": "Feature",
                             "__comment": "A5 Marijampolė-LT-PL nuovazos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1425,7 +1494,7 @@
                             "type": "Feature",
                             "__comment": "A5 Marijampolė-LT-PL sankryzos",
                             "properties": {
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1442,7 +1511,7 @@
                                 "title": "A5/A7",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1504,11 +1573,26 @@
                             "properties":{
                                 "stage": "konkursas",
                                 "type": "nuov",
-                                "lanes": "33"
+                                "lanes": "33",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
-                                "coordinates": [[25.21430067272693,54.75032386297521,0]]
+                                "coordinates": [[25.21430067272693,54.75032386297521]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 9,276-10,238 nuovazos",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "nuov",
+                                "lanes": "22",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[25.20822,54.75571]]
                             }
                         },
                         {
@@ -1517,11 +1601,27 @@
                             "properties":{
                                 "stage": "konkursas",
                                 "type": "sankr",
-                                "lanes": "33"
+                                "lanes": "33",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "MultiPoint",
-                                "coordinates": [[25.20852236623463,54.75544967414373,0]]
+                                "coordinates": [[25.20852236623463,54.75544967414373]]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A2 9,276-10,238 sankryzos",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "xsan",
+                                "lanes": "22",
+                                "state": "u",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [[25.21430067272693,54.75032386297521]]
                             }
                         }
                     ]
@@ -1534,7 +1634,7 @@
                             "type": "Feature",
                             "__comment": "A2 Vilnius sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1553,7 +1653,7 @@
                             "type": "Feature",
                             "__comment": "A2 Vilnius-Panevėžys nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1567,7 +1667,7 @@
                             "type": "Feature",
                             "__comment": "A2 Vilnius-Panevėžys sankryzosU",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "uH"
@@ -1581,7 +1681,7 @@
                             "type": "Feature",
                             "__comment": "A2 Vilnius-Panevėžys sankryzos2",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1598,7 +1698,7 @@
                                 "title":"A2/A6",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1618,7 +1718,7 @@
                             "type": "Feature",
                             "__comment": "A2 Panevėžys nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1631,7 +1731,7 @@
                             "type": "Feature",
                             "__comment": "A2 Panevėžys sankryzosU",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -1648,7 +1748,7 @@
                                 "title": "A2/A8/A17",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1673,7 +1773,7 @@
                             "type": "Feature",
                             "__comment": "A1 Vilnius-Kaunas nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22"
                             },
@@ -1689,7 +1789,7 @@
                             "type": "Feature",
                             "__comment": "A1 Vilnius-Kaunas sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1708,7 +1808,7 @@
                                 "title": "A1/A19",
                                 "description_lt": "Sankryžos tipas: Dobilas",
                                 "description_en": "Junction type: Cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },
@@ -1727,7 +1827,7 @@
                             "type": "Feature",
                             "__comment": "A1 Vilnius-Kaunas nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1741,7 +1841,7 @@
                             "type": "Feature",
                             "__comment": "A1 Vilnius-Kaunas sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1759,14 +1859,50 @@
                     "features": [
                         {
                             "type": "Feature",
+                            "__comment": "A1 95,50-99,29 nuovazos",
+                            "properties":{
+                                "stage": "veikiantis",
+                                "type": "nuov",
+                                "lanes": "22",
+                                "visual": "minimal"
+                            },
+                            "geometry":{
+                                "type": "MultiPoint",
+                                "coordinates": [
+                                    [23.96608,54.93454],
+                                    [23.94722,54.93507],
+                                    [23.94308018574814,54.93517705189894]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "Feature",
                             "__comment": "A1/A6",
                             "properties":{
                                 "title": "A1/A6",
                                 "description_lt": "2014 metais specialusis planas numatė susikertančią deimantinę sankryžą (Diverging Diamond Interchange).</br>Dabartinės sankryžos tipas: Dobilas",
                                 "description_en": "Special plan, prepared in 2014, proposed Diverging Diamond Interchange (DDI).</br>Current junction type: Cloverleaf",
-                                "stage": "priesprojektine",
+                                "stage": "priesprojektinis",
                                 "type": "sankr",
-                                "lanes": "33"
+                                "lanes": "33",
+                                "visual": "full"
+                            },
+                            "geometry":{
+                                "type": "Point",
+                                "coordinates": [23.98268820648717,54.93304010419501,0]
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "__comment": "A1/A6",
+                            "properties":{
+                                "title": "A1/A6",
+                                "description_lt": "Dabartinės sankryžos tipas: Dobilas",
+                                "description_en": "Current junction type: Cloverleaf",
+                                "stage": "veikiantis",
+                                "type": "sankr",
+                                "lanes": "22",
+                                "visual": "minimal"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1783,7 +1919,8 @@
                                 "cvpp": "https://pirkimai.eviesiejipirkimai.lt/ctm/Supplier/PublicPurchase/769576",
                                 "stage": "konkursas",
                                 "type": "sankr",
-                                "lanes": "33"
+                                "lanes": "33",
+                                "visual": "full"
                             },
                             "geometry":{
                                 "type": "Point",
@@ -1819,7 +1956,7 @@
                             "type": "Feature",
                             "__comment": "A1 100,47-101,79 sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "33"
                             },
@@ -1835,7 +1972,7 @@
                                 "title": "A1/A5",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "33"
                             },
@@ -1854,7 +1991,7 @@
                             "type": "Feature",
                             "__comment": "A1 102,90-107,00 nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1868,7 +2005,7 @@
                             "type": "Feature",
                             "__comment": "A1 102,90-107,00 sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1888,7 +2025,7 @@
                             "type": "Feature",
                             "__comment": "A1 Kaunas-Klaipėda nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "H"
@@ -1902,7 +2039,7 @@
                             "type": "Feature",
                             "__comment": "A1 Kaunas-Klaipėda sankryzosU",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "uH"
@@ -1916,7 +2053,7 @@
                             "type": "Feature",
                             "__comment": "A1 Kaunas-Klaipėda sankryzos2",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1930,7 +2067,7 @@
                             "type": "Feature",
                             "__comment": "A1 Sujainiai sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22",
                                 "state": "u"
@@ -1947,7 +2084,7 @@
                                 "title": "A1/A8",
                                 "description_lt": "Sankryžos tipas: Trimitas",
                                 "description_en": "Junction type: Trumpet",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1964,7 +2101,7 @@
                                 "title": "A1/A12",
                                 "description_lt": "Sankryžos tipas: Dalinis dobilas",
                                 "description_en": "Junction type: Partial cloverleaf",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "H"
@@ -1984,7 +2121,7 @@
                             "type": "Feature",
                             "__comment": "A1 Dirvupiai nuovazos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "nuov",
                                 "lanes": "22",
                                 "state": "G"
@@ -1998,7 +2135,7 @@
                             "type": "Feature",
                             "__comment": "A1 Dirvupiai sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22",
                                 "state": "G"
@@ -2018,7 +2155,7 @@
                             "type": "Feature",
                             "__comment": "A1 Klaipėda sankryzos",
                             "properties":{
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "xsan",
                                 "lanes": "22"
                             },
@@ -2034,7 +2171,7 @@
                                 "title": "A1/A13",
                                 "description_lt": "Sankryžos tipas: Trijų lygių žiedinė sankryža",
                                 "description_en": "Junction type: Three-level roundabout",
-                                "stage": "veikianti",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "22"
                             },

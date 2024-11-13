@@ -1,58 +1,77 @@
-// pane and thickness
-map.createPane('skir');
-map.getPane('skir').style.zIndex = 450;
-let mult = 2.5;
+// set layer type names
+const layerTypeArr = ['keliai', 'skiriamosios', 'ribos', 'sankryzos'];
 
-// import data, add data styling and binding
-function importKeliai(mult) {
-    let layer = L.geoJson(null, {
-        style: feature => stiliai(feature.properties, 'keliai', mult),
-        onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
-    });
-    $.getJSON("/geojson/vrkr_keliai.geojson", jsonObject => {layer.addData(jsonObject)});
+// pane for 'skiriamosios'
+map.createPane(layerTypeArr[1]);
+map.getPane(layerTypeArr[1]).style.zIndex = 450;
+
+// import data and add parameters
+function importData(layerType, layerVisual, mult) {
+    let layer = L.geoJson(null, setParam(layerType, layerVisual, mult));
+    $.getJSON("/geojson/vrkr_"+layerType+".geojson", jsonObject => {layer.addData(jsonObject)});
     return layer;
 };
 
-function importSkiriamosios(mult) {
-    let layer = L.geoJson(null, {
-        style: feature => stiliai(feature.properties, 'skiriamosios', mult),
-        pane: "skir"
-    });
-    $.getJSON("/geojson/vrkr_skiriamosios.geojson", jsonObject => {layer.addData(jsonObject)});
-    return layer;
+// set parameters for layers
+function setParam(layerType, layerVisual, mult) {
+    switch (layerType) {
+        case layerTypeArr[0]:
+            return {
+                style: feature => stiliai(feature.properties, layerType, layerVisual, mult),
+                onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+            };
+        case layerTypeArr[1]:
+            return {
+                style: feature => stiliai(feature.properties, layerType, layerVisual, mult),
+                pane: layerTypeArr[1]
+            };
+        case layerTypeArr[2]:
+            return {
+                pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, layerType, layerVisual, mult))
+            };
+        case layerTypeArr[3]:
+            return {
+                pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, layerType, layerVisual, mult)),
+                onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
+            };
+    };
 };
 
-function importRibos(mult) {
-    let layer = L.geoJson(null, {
-        pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, 'ribos', mult))
-    });
-    $.getJSON("/geojson/vrkr_ribos.geojson", jsonObject => {layer.addData(jsonObject)});
-    return layer;
-};
+// import layers for each in the list layerTypeArr
+function importLayers(layerVisual, size) {
+    let n = 3, layerArr = [];
 
-function importSankryzos(mult) {
-    let layer = L.geoJson(null, {
-        pointToLayer: (feature, latlng) => L.marker(latlng, stiliai(feature.properties, 'sankryzos', mult)),
-        onEachFeature: (feature, layer) => onEachFeature(feature.properties, layer)
-    });
-    $.getJSON("/geojson/vrkr_sankryzos.geojson", jsonObject => {layer.addData(jsonObject)});
-    return layer;
-};
+    // map values for size
+    const sizeMap = new Map();
+    sizeMap.set('normal', 2.5)
+           .set('small', 1.8);
 
-var layerRegular = L.layerGroup([importKeliai(2.5), importSkiriamosios(2.5), importRibos(2.5), importSankryzos(2.5)]);
-var layerMinimal = L.layerGroup([importKeliai(1.8), importSkiriamosios(1.8), importRibos(1.8)]).addTo(map);
+    // import data based on size
+    if (size == 'normal') n = 4;
+    for (let i=0; i < n; i++)
+        layerArr.push(importData(layerTypeArr[i], layerVisual, sizeMap.get(size)));
+
+    return layerArr;
+}
+
+// create array for all needed layers
+var layers = Array.from(Array(2), () => Array(4));
+
+layers[1][1] = L.layerGroup(importLayers('full', 'normal'));
+layers[1][0] = L.layerGroup(importLayers('full', 'small')).addTo(map);
+
+layers[0][1] = L.layerGroup(importLayers('minimal', 'normal'));
+layers[0][0] = L.layerGroup(importLayers('minimal', 'small'));
 
 // remove layer based on zoom level
 map.on("zoom", () => {
     var zoomlevel = map.getZoom();
-    switch(true) {
-        case zoomlevel <= 10:
-            map.removeLayer(layerRegular);
-            map.addLayer(layerMinimal);
-            break;
-        case zoomlevel > 10:
-            map.removeLayer(layerMinimal);
-            map.addLayer(layerRegular);
-            break;
+    if (zoomlevel <= 10) {
+        if (map.hasLayer(layers[1][1])) switchLayer(layers[1],1,0);
+        if (map.hasLayer(layers[0][1])) switchLayer(layers[0],1,0);
+    };
+    if (zoomlevel > 10) {
+        if (map.hasLayer(layers[1][0])) switchLayer(layers[1],0,1);
+        if (map.hasLayer(layers[0][0])) switchLayer(layers[0],0,1);
     };
 });

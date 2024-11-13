@@ -10,7 +10,8 @@
                     "__comment": "KK130 19,48",
                     "properties": {
                         "lanes": "22",
-                        "angle": 149.9
+                        "angle": 149.9,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -28,7 +29,8 @@
                     "__comment": "A14 28,40",
                     "properties": {
                         "lanes": "21",
-                        "angle": 18
+                        "angle": 18,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -40,7 +42,8 @@
                     "__comment": "A14 39,207",
                     "properties": {
                         "lanes": "21",
-                        "angle": 7
+                        "angle": 7,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -52,7 +55,8 @@
                     "__comment": "A14 51,55",
                     "properties": {
                         "lanes": "21",
-                        "angle": 22.5
+                        "angle": 22.5,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -64,7 +68,8 @@
                     "__comment": "A14 59,00",
                     "properties": {
                         "lanes": "21",
-                        "angle": 8.6
+                        "angle": 8.6,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -94,7 +99,8 @@
                     "__comment": "A10 47,30",
                     "properties": {
                         "lanes": "22",
-                        "angle": 172.4
+                        "angle": 172.4,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",
@@ -112,7 +118,8 @@
                     "__comment": "A1 99,29",
                     "properties": {
                         "lanes": "33",
-                        "angle": 95.8
+                        "angle": 95.8,
+                        "visual": "full"
                     },
                     "geometry": {
                         "type": "Point",

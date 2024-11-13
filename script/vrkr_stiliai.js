@@ -1,9 +1,11 @@
-function stiliai(data, type, mult) {
+function stiliai(data, type, visual, mult) {
     var color, width, lineCap = 'butt', icon, zIndexOffset, interactive = false;
+
+    if (data.visual != visual && data.visual !== undefined) mult = 0;
 
     switch (type) {
         // keliai styling
-        case 'keliai':
+        case layerTypeArr[0]:
             color = '#bcbec0', width = 6;
             switch (data.stage) {
                 case "priesprojektinis": color = '#ff00c5'; break;
@@ -22,7 +24,7 @@ function stiliai(data, type, mult) {
             return {"color": color, "weight": width*mult, lineCap: lineCap};
 
         // skiriamosios styling
-        case 'skiriamosios':
+        case layerTypeArr[1]:
             color = '#ffffff', width = 2;
             switch (data.lanes) {
                 case "21": width = 1; break;
@@ -32,7 +34,7 @@ function stiliai(data, type, mult) {
             return {"color": color, "weight": width*mult, lineCap: lineCap, interactive: false};
 
         // ribos styling
-        case 'ribos':
+        case layerTypeArr[2]:
             width = 6; 
             switch(data.lanes) {
                 case "11": data.lanes = "21";
@@ -47,7 +49,7 @@ function stiliai(data, type, mult) {
             return {icon: icon, keyboard: false, rotationAngle: data.angle, rotationOrigin: "center center", interactive: interactive};
 
         // sankryzos styling
-        case 'sankryzos':
+        case layerTypeArr[3]:
             width = 7;
             if (data.title !== undefined)
                 interactive = true;

@@ -32,3 +32,8 @@ sidebar:
 popup:
   cvpp: "Pirkimo skelbimai"
   tpd: "Planavimo dokumentai"
+
+layer:
+  group: Peržiūros režimas
+  full: Pilnas
+  minimal: Minimalus

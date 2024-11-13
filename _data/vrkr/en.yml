@@ -32,3 +32,8 @@ sidebar:
 popup:
   cvpp: "Tender notices"
   tpd: "Planning documents"
+
+layer:
+  group: Preview mode
+  full: Full
+  minimal: Minimal

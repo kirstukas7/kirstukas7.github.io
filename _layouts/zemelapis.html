@@ -3,10 +3,12 @@
 {% if page.lang == "lt" %}
     {% assign sidebar = site.data.vrkr.lt.sidebar %}
     {% assign notify = site.data.notifications.lt %}
+    {% assign layer = site.data.vrkr.lt.layer %}
     {% assign changelang = 'en/' %}
 {% elsif page.lang == "en" %}
     {% assign sidebar = site.data.vrkr.en.sidebar %}
     {% assign notify = site.data.notifications.en %}
+    {% assign layer = site.data.vrkr.en.layer %}
     {% assign changelang = 'lt/' %}
 {% endif %}
 {% assign sites = site.data.sites %}
@@ -23,6 +25,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-sidebar-v2@3.2.3/css/leaflet-sidebar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-notifications@1.0.7/css/leaflet-notifications.min.css" integrity="sha256-9I1RAuM/Ap/7XuGX1Mq9BRPCWkxWist3BgibXRkk55E=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-groupedlayercontrol@0.6.1/dist/leaflet.groupedlayercontrol.min.css" integrity="sha256-2nki7eLxn91r/RI3QQq+ArnIltknk6gz4wSoQHFrJnA=" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/79c1797b6f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -30,6 +33,7 @@
     <script src="https://cdn.jsdelivr.net/npm/leaflet-sidebar-v2@3.2.3/js/leaflet-sidebar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-rotatedmarker@0.2.0/leaflet.rotatedMarker.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-notifications@1.0.7/js/leaflet-notifications.min.js" integrity="sha256-klFXpWxZeEvmTHlgWKUwg0e7mrEFEpYLOgKHfppS9Ss=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-groupedlayercontrol@0.6.1/dist/leaflet.groupedlayercontrol.min.js" integrity="sha256-jpTunCut/xbLZJF8NpoJiNL3FLfFTKv6xeGGrWo8whY=" crossorigin="anonymous"></script>
 
     <style>
         body {
@@ -63,11 +67,6 @@
                 [53.526, 27.853]
             ]
         }).setView([54.89804, 23.90433], 10);
-        
-        // create base layers
-        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { // https://leafletjs.com/reference#tilelayer
-            attribution: '&copy <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-        }).addTo(map);
 
         // create scale
         var scale = L.control.scale().addTo(map);
@@ -160,6 +159,41 @@
         };
     </script>
     {{ content }}
+    <script>
+        // create base layers
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { // https://leafletjs.com/reference#tilelayer
+            attribution: '&copy <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+        }).addTo(map);
+
+        var basemaps = {
+            "OpenStreetMap": osm
+        };
+        
+        var dataOverlays = [];
+        // create data overlays
+        dataOverlays[0] = {
+            "{{ layer.group }}": {
+                "{{ layer.full }}": layers[1][0],
+                "{{ layer.minimal }}": layers[0][0]
+        }
+        };
+        dataOverlays[1] = {
+            "{{ layer.group }}": {
+                "{{ layer.full }}": layers[1][1],
+                "{{ layer.minimal }}": layers[0][1]
+            }
+        };
+
+        var layerControl = L.control.groupedLayers(basemaps, dataOverlays[0], {exclusiveGroups: ["{{ layer.group }}"]}).addTo(map);
+
+        function switchLayer(layer,from,to) {
+            layer[from].remove();
+            layerControl.remove();
+            layerControl = L.control.groupedLayers(basemaps, dataOverlays[to], {exclusiveGroups: ["{{ layer.group }}"]}).addTo(map);
+            layer[to].addTo(map);
+            layerControl.addTo(map);
+        };
+    </script>
     {% include notification.html %}
     {% include share.html %}
     {% include kalba.html %}
