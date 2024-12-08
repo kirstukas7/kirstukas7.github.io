@@ -459,7 +459,7 @@
                             "type": "Feature",
                             "__comment": "A14 39,207-51,550 nuovazos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "nuov",
                                 "lanes": "21",
                                 "visual": "full"
@@ -473,7 +473,7 @@
                             "type": "Feature",
                             "__comment": "A14 39,207-51,550 sankryzos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "xsan",
                                 "lanes": "21",
                                 "visual": "full"
@@ -493,7 +493,7 @@
                             "type": "Feature",
                             "__comment": "A14 51,55-59,00 nuovazos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "nuov",
                                 "lanes": "21",
                                 "visual": "full"
@@ -507,7 +507,7 @@
                             "type": "Feature",
                             "__comment": "A14 51,55-59,00 sankryzos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "xsan",
                                 "lanes": "21",
                                 "visual": "full"
@@ -527,7 +527,7 @@
                             "type": "Feature",
                             "__comment": "A14 59,000-64,332 nuovazos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "nuov",
                                 "lanes": "21",
                                 "visual": "full"
@@ -541,7 +541,7 @@
                             "type": "Feature",
                             "__comment": "A14 59,000-64,332 sankryzos",
                             "properties": {
-                                "stage": "projektuojamas",
+                                "stage": "konkursas",
                                 "type": "xsan",
                                 "lanes": "21",
                                 "visual": "full"
