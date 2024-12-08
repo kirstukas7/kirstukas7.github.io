@@ -1937,7 +1937,7 @@
                             "type": "Feature",
                             "__comment": "A1 99,29-100,47 sankryzos",
                             "properties":{
-                                "stage": "darbai",
+                                "stage": "veikiantis",
                                 "type": "sankr",
                                 "lanes": "33"
                             },

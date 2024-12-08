@@ -96,25 +96,6 @@
                     }
                 }
             ]
-        },
-        {
-            "type": "FeatureCollection",
-            "__comment": "A1",
-            "features": [
-                {
-                    "type": "Feature",
-                    "__comment": "A1 99,29",
-                    "properties": {
-                        "lanes": "33",
-                        "angle": 95.8,
-                        "visual": "full"
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [23.92818234541323,54.93562984450004,0]
-                    }
-                }
-            ]
         }
     ]
 }
